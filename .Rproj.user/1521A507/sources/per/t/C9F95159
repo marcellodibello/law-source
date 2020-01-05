@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1578091010394.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3950165098",
+    "id" : "C9F95159",
+    "lastKnownWriteTime" : 1578011956,
+    "last_content_update" : 1578011956,
+    "path" : "~/Documents/GitHub/law-source/update_academic.sh",
+    "project_path" : "update_academic.sh",
+    "properties" : {
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 10,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "sh"
+}
