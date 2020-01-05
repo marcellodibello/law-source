@@ -50,13 +50,11 @@ subtitle = ""
  css_class = ""
 +++
 
-Welcome to **Philoosphy of Law / Jurisprudence** for Spring 2020!
-
 There are two types of assignments:
 
-- grades asignments
-- pass fail assignments
+- graded assignments
+- pass/fail assignments
 
 {{% alert note %}}
-In addition to complete all graded assignments, you need to pass all pass/fail assigments in order to pass this course
+In addition to complete all graded assignments, you need to pass all pass/fail assigments in order to pass the course
 {{% /alert %}}
