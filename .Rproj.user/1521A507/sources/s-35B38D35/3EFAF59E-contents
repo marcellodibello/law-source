@@ -61,7 +61,7 @@ The course is divided into three parts:
 
 2. **Law and morality** --  Are laws grounded on moral and ethical principles? Should we obey immoral laws? Why should we obey the law in the first place? 
 
-3. **Algoriths and the justice system** -- How are algorithms used in the justice system today? Can they improve the justice system? Do they pose a threat? 
+3. **Algorithms and the justice system** -- How are algorithms used in the justice system today? Can they improve the justice system? Do they pose a threat? 
 
 
 
