@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1578091673004.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "CD64193C",
+    "lastKnownWriteTime" : 1578194148,
+    "last_content_update" : 1578194148380,
+    "path" : "~/Documents/GitHub/law-source/content/home/talks.md",
+    "project_path" : "content/home/talks.md",
+    "properties" : {
+        "cursorPosition" : "6,14",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 25,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "markdown"
+}

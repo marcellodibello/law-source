@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1578104138466.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "604147356",
+    "id" : "25A2558A",
+    "lastKnownWriteTime" : 1578011956,
+    "last_content_update" : 1578011956,
+    "path" : "~/Downloads/academic-kickstart-master/data/page_sharer.toml",
+    "project_path" : "data/page_sharer.toml",
+    "properties" : {
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 29,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "toml"
+}
