@@ -52,13 +52,11 @@ subtitle = ""
 
 Welcome to **Philoosphy of Law / Jurisprudence** for Spring 2020!
 
-Please familiarize yourself with the different parts of the course website:
+There are two types of assignments:
 
-- assignments 
-- schedule
-
-The instructor for this course is [Marcello Di Bello](https://www.marcellodibello.com/).
+- grades asignments
+- pass fail assignments
 
 {{% alert note %}}
-The course meets every Tuesday from 2pm to 4:40pm in Carman 355.
+In addition to complete all graded assignments, you need to pass all pass/fail assigments in order to pass this course
 {{% /alert %}}

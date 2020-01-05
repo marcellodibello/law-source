@@ -1,16 +1,16 @@
 {
     "collab_server" : "",
     "contents" : "",
-    "created" : 1578091371645.000,
+    "created" : 1578091317126.000,
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "2033493619",
-    "id" : "977BB9C1",
-    "lastKnownWriteTime" : 1578109797,
-    "last_content_update" : 1578109797243,
-    "path" : "~/Documents/GitHub/law-source/content/home/accomplishments.md",
-    "project_path" : "content/home/accomplishments.md",
+    "hash" : "0",
+    "id" : "580C34AD",
+    "lastKnownWriteTime" : 1578109821,
+    "last_content_update" : 1578109821276,
+    "path" : "~/Documents/GitHub/law-source/content/home/experience.md",
+    "project_path" : "content/home/experience.md",
     "properties" : {
         "cursorPosition" : "4,14",
         "scrollLine" : "0"
@@ -18,7 +18,7 @@
     "read_only" : false,
     "read_only_alternatives" : [
     ],
-    "relative_order" : 17,
+    "relative_order" : 16,
     "source_on_save" : false,
     "source_window" : "",
     "type" : "markdown"
