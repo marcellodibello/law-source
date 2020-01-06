@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Philosophy Of Law
+name: Philosophy Of Law / Jurisprudence
 
 # Username (this should match the folder name)
 authors:
@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: PHI 234 / POL 342
+role: PHI 234 / POL 312
 
 # Organizations/Affiliations
 organizations:

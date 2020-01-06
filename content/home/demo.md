@@ -50,12 +50,11 @@ subtitle = ""
  css_class = ""
 +++
 
-Welcome to **Philoosphy of Law / Jurisprudence** for Spring 2020! 
-Please familiarize yourself with [assignments](#assignments) and [schedule](#schedule) for this course. 
-The instructor is [Marcello Di Bello](https://www.marcellodibello.com/).
+Welcome to **Philosophy of Law / Jurisprudence** for Spring 2020! Please familiarize yourself with [assignments](#assignments) and [schedule](#schedule) for this course. 
+
 
 
 {{% alert note %}}
-The course meets every Tuesday from 2pm to 4:40pm in Carman 345. 
-The first class meeting is Tuesday Jan 28 at 2pm in Carman 345.
+The course meets every Tuesday from 2pm to 4:40pm in Carman 349. 
+The first class isJan 28 at 2pm in Carman 349. 
 {{% /alert %}}
