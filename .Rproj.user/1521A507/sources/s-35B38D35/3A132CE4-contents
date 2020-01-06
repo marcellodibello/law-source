@@ -50,11 +50,12 @@ subtitle = ""
  css_class = ""
 +++
 
-Welcome to **Philosophy of Law / Jurisprudence** for Spring 2020! Please familiarize yourself with [assignments](#assignments) and [schedule](#schedule) for this course. 
+Welcome to **Philosophy of Law / Jurisprudence** for Spring 2020! Check out [assignments](#assignments) and 
+[schedule](#schedule). 
 
 
 
 {{% alert note %}}
 The course meets every Tuesday from 2pm to 4:40pm in Carman 349. 
-The first class isJan 28 at 2pm in Carman 349. 
+First class is on Jan 28. 
 {{% /alert %}}

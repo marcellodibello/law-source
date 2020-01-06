@@ -5,13 +5,15 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "3406323568",
+    "hash" : "3376682850",
     "id" : "B7906CA8",
-    "lastKnownWriteTime" : 1578011956,
-    "last_content_update" : 1578011956,
+    "lastKnownWriteTime" : 1578326391,
+    "last_content_update" : 1578326391292,
     "path" : "~/Documents/GitHub/law-source/content/home/posts.md",
     "project_path" : "content/home/posts.md",
     "properties" : {
+        "cursorPosition" : "6,14",
+        "scrollLine" : "0"
     },
     "read_only" : false,
     "read_only_alternatives" : [
