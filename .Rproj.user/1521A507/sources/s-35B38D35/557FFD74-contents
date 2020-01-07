@@ -4,12 +4,12 @@
 # Add more sections by duplicating this file and customizing to your requirements.
 
 widget = "blank"  # See https://sourcethemes.com/academic/docs/page-builder/
-headless = false  # This file represents a page section.
+headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 15  # Order that this section will appear.
+weight = 52  # Order that this section will appear.
 
-title = "Course Description"
-subtitle = "PHI 234/POL 312"
+title = "Grading"
+subtitle = ""
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
@@ -23,7 +23,6 @@ subtitle = "PHI 234/POL 312"
 
   # Background color.
   # color = "navy"
-   color =  "gainsboro"
   
   # Background gradient.
   # gradient_start = "DarkGreen"
@@ -41,7 +40,7 @@ subtitle = "PHI 234/POL 312"
 
 [design.spacing]
   # Customize the section spacing. Order is top, right, bottom, left.
-  padding = ["20px", "5px", "20px", "5px"]
+  padding = ["20px", "0", "20px", "0"]
 
 [advanced]
  # Custom CSS. 
@@ -51,23 +50,23 @@ subtitle = "PHI 234/POL 312"
  css_class = ""
 +++
 
-Welcome to **PHI 234 / POL 312** for Spring 2020! 
 
-This is an introduction to philosophical questions about law, legal reasoning and the justice system. 
+## Final Grade
 
-The course is divided into three parts:
+Your grade will depend on the average of your graded assignments. In addition: 
 
-1. **Law and interpretation** --  What makes a written text a piece of law? What principles inform the writing of laws? Are laws mere human conventions? How should judges decide difficult cases?
+- For each pass/fail assignment you failed, two thirds of a letter grade 
+will be subtracted from your final grade (that is, A becomes a B+; an A- becomes a B; and so on.). 
 
-2. **Law and morality** --  Are laws grounded on moral and ethical principles? Should we obey immoral laws? Why should we obey the law in the first place? 
+- If you misssed three or more classes, this will negatively affect your final grade. 
+If you attended class regularly and participated in the discussion, this will positively 
+affect your final grade.  
 
-3. **Algorithms and the justice system** -- How are algorithms used in the justice system today?Do they pose a threat? 
-Can they improve the justice system?
+## Grading Criteria
 
-The instructor for the course is [Marcello Di Bello](#about). 
+**C Range**: The writing demonostrates a sufficient grasp of the main concepts and ideas, with some occasional mistakes, and also shows reasonably good mastery of expository and argumentative writing.
 
+**B range**: The writing shows a good grasp of the main concepts and ideas, with only minor mistakes, and also shows a full mastery of expository and argumentative writing. 
 
+**A range**: The writing shows an excellent grasp of the main concepts and ideas, as well as excellent mastery of expository and argumentative writing. In addition, the writing shows clear in-depth indepedent and creative thinking. 
 
-{{% alert note %}}
-All course materials are freely available on this website. Check out the [course schedule](#schedule) and [assignments](#assignments).  **Blackboard will not be used**. Please check this website for updates. 
-{{% /alert %}}

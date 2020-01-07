@@ -8,7 +8,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 50  # Order that this section will appear.
 
-title = ""
+title = "Assignments"
 subtitle = ""
 
 [design]
@@ -25,8 +25,8 @@ subtitle = ""
   # color = "navy"
   
   # Background gradient.
-  gradient_start = "DarkGreen"
-  gradient_end = "ForestGreen"
+  # gradient_start = "DarkGreen"
+  # gradient_end = "ForestGreen"
   
   # Background image.
   # image = "image.jpg"  # Name of image in `static/img/`.
@@ -36,7 +36,7 @@ subtitle = ""
   # image_parallax = true  # Use a fun parallax-like fixed background effect? true/false
   
   # Text color (true=light or false=dark).
-  text_color_light = true
+  # text_color_light = true
 
 [design.spacing]
   # Customize the section spacing. Order is top, right, bottom, left.
@@ -50,11 +50,16 @@ subtitle = ""
  css_class = ""
 +++
 
-There are two types of assignments:
+There two types of assignments for this course:
 
-- graded assignments
-- pass/fail assignments
+- *four graded assignments* -- receiving a grade between F and A, **each worth 25%**
+- *four pass/fail assignments* -- receiving a grade of either pass or fail 
 
-{{% alert note %}}
-In addition to complete all graded assignments, you need to pass all pass/fail assigments in order to pass the course
-{{% /alert %}}
+Every assignment, graded or pass/fail, must be handed in **paper copy at the beginning of class**. For due dates, check the [course schedule](#schedule). 
+
+## Late policy
+
+For each day a *graded assignment* is late, one third of a letter grade will be taken off. For example, an A becomes an A-; an A-  becomes a B+; a B+ becomes a B; and so on. 
+
+If you do not hand in a *pass/fail assignment* by the due date, you have the option of *either* completing the assignment by the week after together with an *additional pass/fail assignment* at the discretion of the instructor *or* failing the assignment. The latter option will negatively affect your [final grade].
+

@@ -1,24 +1,24 @@
 {
     "collab_server" : "",
     "contents" : "",
-    "created" : 1578182513693.000,
+    "created" : 1578357070932.000,
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
     "hash" : "0",
-    "id" : "42D66596",
-    "lastKnownWriteTime" : 1578205846,
-    "last_content_update" : 1578205846,
-    "path" : "~/Documents/GitHub/law-source/README.md",
-    "project_path" : "README.md",
+    "id" : "F39C4691",
+    "lastKnownWriteTime" : 1578194075,
+    "last_content_update" : 1578194075,
+    "path" : "~/Documents/GitHub/law-source/content/home/featured.md",
+    "project_path" : "content/home/featured.md",
     "properties" : {
-        "cursorPosition" : "2,0",
+        "cursorPosition" : "7,14",
         "scrollLine" : "0"
     },
     "read_only" : false,
     "read_only_alternatives" : [
     ],
-    "relative_order" : 32,
+    "relative_order" : 21,
     "source_on_save" : false,
     "source_window" : "",
     "type" : "markdown"

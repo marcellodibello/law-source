@@ -1,14 +1,14 @@
 {
     "collab_server" : "",
     "contents" : "",
-    "created" : 1578091763781.000,
-    "dirty" : true,
+    "created" : 1578352554804.000,
+    "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
     "hash" : "0",
-    "id" : "C3A4BB60",
-    "lastKnownWriteTime" : 1578204720,
-    "last_content_update" : 1578209801823,
+    "id" : "3D16D5C6",
+    "lastKnownWriteTime" : 1578336045,
+    "last_content_update" : 1578336045,
     "path" : "~/Documents/GitHub/law-source/config/_default/config.toml",
     "project_path" : "config/_default/config.toml",
     "properties" : {
@@ -18,7 +18,7 @@
     "read_only" : false,
     "read_only_alternatives" : [
     ],
-    "relative_order" : 27,
+    "relative_order" : 17,
     "source_on_save" : false,
     "source_window" : "",
     "type" : "toml"
