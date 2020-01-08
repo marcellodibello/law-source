@@ -25,7 +25,9 @@ the biases. Garbage in, garbage out. Biases due to biased data might
 compound over time throguh [feedback loops](http://proceedings.mlr.press/v81/ensign18a/ensign18a.pdf) and exacerbate racial inequities. 
 Algorithms might actually [fail](https://chicagounbound.uchicago.edu/cgi/viewcontent.cgi?article=1021&context=public_law_and_legal_theory) at what they are supposed to do best, namely to reduce crime.  
 
-There is a growing literarure in computer science, law and philosophy on *algorithmic fairness*. Definitions of fairness [proliferate](https://www.youtube.com/watch?v=jIXIuYdnyyk), but a unified analytical framework is lacking. I will discuss some of the proposals for theorizing about algorithmic fairness, but before I do that, I will review some examples of algorithms in criminal justice. 
+I will focus on the question of whether the algorithms used in criminal 
+justice are fair and more generally on what it means for an algorithm to be fair.
+There is a growing literature in computer science, law and philosophy on algorithmic fairness. Definitions [proliferate](https://www.youtube.com/watch?v=jIXIuYdnyyk), but a unified analytical framework is lacking. I will discuss some of the proposals for theorizing about algorithmic fairness. Before I do that, I will review some examples of algorithms in criminal justice. 
 
 ## Predictive policing
 
