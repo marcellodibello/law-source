@@ -13,7 +13,7 @@ subtitle = ""
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
-  columns = "2"
+  columns = "1"
 
 [design.background]
   # Apply a background color, gradient, or image.
@@ -51,22 +51,19 @@ subtitle = ""
 +++
 
 
-## Final Grade
-
-Your grade will depend on the average of your graded assignments. In addition: 
+Your **final grade** grade will depend on the average of your graded assignments. In addition: 
 
 - For each pass/fail assignment you failed, two thirds of a letter grade 
 will be subtracted from your final grade (that is, A becomes a B+; an A- becomes a B; and so on.). 
 
-- If you misssed three or more classes, this will negatively affect your final grade. 
-If you attended class regularly and participated in the discussion, this will positively 
-affect your final grade.  
+- If you misssed three or more classes, this will negatively affect your final grade up to a one full letter grade at the discretion of the instructor. If you attended class regularly and participated in the discussion, this will positively 
+affect your final grade up to one full letter grade at the discretion of the instructor.  
 
-## Grading Criteria
+## Grading criteria
 
-**C Range**: The writing demonostrates a sufficient grasp of the main concepts and ideas, with some occasional mistakes, and also shows reasonably good mastery of expository and argumentative writing.
+**C Range** - The writing demonostrates a sufficient grasp of the main concepts and ideas, with some occasional mistakes, and also shows reasonably good mastery of expository and argumentative writing.
 
-**B range**: The writing shows a good grasp of the main concepts and ideas, with only minor mistakes, and also shows a full mastery of expository and argumentative writing. 
+**B range** - The writing shows a good grasp of the main concepts and ideas, with only minor mistakes, and also shows a full mastery of expository and argumentative writing. 
 
-**A range**: The writing shows an excellent grasp of the main concepts and ideas, as well as excellent mastery of expository and argumentative writing. In addition, the writing shows clear in-depth indepedent and creative thinking. 
+**A range** - The writing shows an excellent grasp of the main concepts and ideas, as well as excellent mastery of expository and argumentative writing. In addition, the writing shows clear in-depth indepedent and creative thinking. 
 

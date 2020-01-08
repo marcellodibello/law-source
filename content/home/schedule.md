@@ -56,37 +56,41 @@ The course meets every **Tuesday** from **2pm** to **4:40pm** in **Carman 349**.
 {{% /alert %}}
 
 
-| Date        | Readings                                                      | Slides, videos, etc.| Assignments   | Comments  |
-|-------------|---------------------------------------------------------------|---------------------|-----------------|-----------|
-| **PART 1** | **Law and interpretation**                                     |                     |                 |           |
-| Jan 28      | No readings / course introduction                             | [slides][intro-s]   |                 |           |
-| Feb 4       | [Hammurabi's code][Hammurabi] and [NY Penal Code law][NYPenal]| [slides][H-NY-s]    |[Graded #1][A-1] |           |
-| Feb 11      | [Tennessee Valley Authority v. Hill (1978)][TVA]              | [summary][TVA-s]    |[Pass/Fail#1][PF-1]          |
-| Feb 18      | [DeBoer v. Snyder (6th Circuit, 2014)][Boer]                  | [summary][Boer-s]   |                 |           |
-| Feb 25      | No readings / writing workshop                                                                        |           |
-| **PART 2**  | **Law and Morality**                                                                                  |           |
-| Mar 3       | Sophocle, [*Antigone*][Antigone-t]                            | [video][Antigone-v] |[Graded#2][A-2]  |           |
-| Mar 10      | Plato, [*Crito*][Crito-t]                                     | [video][Crito-v]    |[Pass/Fail#2][PF-2]          |
-| Mar 17      | Hart, [*Positivism and the Separation of Laws and Morals*][Hart]|[slides][Hart-s]   |[Pass/Fail#3][PF-3]          |
-| Mar 24      | Fuller, [*Positivism and Fidelity to the Law*][Fuller]        | [slides][Fuller-s]  |                 |           |
-| Mar 31      | No readings / writing workshop                                                                                    |
-| Apr 7       | **No class**                                                                                                      |
-| Apr 14      | **No class**                                                                                                      |
-| **PART 3**  | **Algorithms in Criminal Justice**                                                                                |
-| Apr 28      | tba                                                           |                     | [Graded#3][A-3]             |
-| May 5       | tba                                                           |                     | [Pass/Fail#4][PF-4]         |
-| May 12      | No readings / writing workshop                                                                                    | 
+| Date        | Readings                                                      | Other materials     | |Assignments due | 
+|-------------|---------------------------------------------------------------|---------------------|-|----------------|
+| **PART 1** | **Law and interpretation**                                     |                     | |                |           
+| Jan 28      | No readings / course introduction                             | [slides][intro-s]   | |                |           
+| Feb 4       | [Hammurabi's code][Hammurabi] and [NY Penal Code law][NYPenal]| [post][ham-NY-post]|  | [Graded #1][A-1] |           
+| Feb 11      | [Tennessee Valley Authority v. Hill (1978)][TVA]              | [summary][TVA-s]    | |[Pass/Fail #1][PF-1] |          
+| Feb 18      | [DeBoer v. Snyder (6th Circuit, 2014)][Boer]                  | [summary][Boer-s]   | |                |           
+| Feb 25      | No readings / writing workshop                                                                        |           
+| **PART 2**  | **Law and Morality**                                                                                  |           
+| Mar 3       | Sophocle, [*Antigone*][Antigone-t]                            | [video][Antigone-v] | |[Graded #2][A-2]  |          
+| Mar 10      | Plato, [*Crito*][Crito-t]                                     | [video][Crito-v]    | |[Pass/Fail #2][PF-2] |         
+| Mar 17      | Hart, [*Positivism and the Separation of Laws and Morals*][Hart]|[slides][Hart-s]   | |[Pass/Fail #3][PF-3] |
+| Mar 24      | Fuller, [*Positivism and Fidelity to the Law*][Fuller]        | [slides][Fuller-s]  | |                |    
+| Mar 31      | No readings / writing workshop                                                                              |
+| Apr 7       | **No class**                                                                                                |
+| Apr 14      | **No class: Spring break**                                                                                  |
+| **PART 3**  | **Algorithms in Criminal Justice**                                                                          |
+| Apr 28      | Mayson, [Bias In, Bias Out][Mayson]                           | [post][algo-post]   | | [Graded #3][A-3]    |
+| May 5       | Aziz, [Racial Equity in Algorithmic Criminal Justice][Aziz]   |                     | | [Pass/Fail #4][PF-4]|
+| May 12      | No readings / writing workshop                                                                              | 
+| May 19      | **No class: exam period**                                     |                     | | [Graded #4][A-4]    |
 
 [Hammurabi]: https://avalon.law.yale.edu/ancient/hamframe.asp               
 [NYPenal]: http://ypdcrime.com/penal.law/ 
 [Boer]: http://www.marcellodibello.com/PHI234/resources/Boer2014.pdf
 [TVA]: http://www.marcellodibello.com/PHI234/resources/TVAvHill1978.pdf
 [Antigone-t]: http://www.marcellodibello.com/PHI234/resources/Sophocles-antigone.pdf
-[Antigone-v]: http://
 [Crito-t]: http://pitt.edu/~mthompso/readings/crito.pdf
-[Crito-v]: https://www.youtube.com/watch?v=3ruJDEXyO5A
 [Hart]: http://www.marcellodibello.com/PHI234/resources/hart-1958-positivism-separation-abridged.pdf
 [Fuller]: http://www.marcellodibello.com/PHI234/resources/fuller-hart-1958.pdf
+[Mayson]: https://www.yalelawjournal.org/article/bias-in-bias-out
+[Aziz]: https://scholarship.law.duke.edu/dlj/vol68/iss6/1/
+
+[Antigone-v]: http://
+[Crito-v]: https://www.youtube.com/watch?v=3ruJDEXyO5A
 
 [intro-s]: http://
 [H-NY-s]: http://
@@ -95,6 +99,8 @@ The course meets every **Tuesday** from **2pm** to **4:40pm** in **Carman 349**.
 [Hart-s]: http://
 [Fuller-s]:http://
 
+[ham-NY-post]: /post/hammurabi-v-ny/
+[algo-post]: /post/algorithms-criminal-justice/
 [A-1]: http://
 [A-2]: http://
 [A-3]: http://

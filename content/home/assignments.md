@@ -52,14 +52,16 @@ subtitle = ""
 
 There two types of assignments for this course:
 
-- *four graded assignments* -- receiving a grade between F and A, **each worth 25%**
+- *four graded assignments* -- receiving a letter grade between F and A, **each worth 25%**
 - *four pass/fail assignments* -- receiving a grade of either pass or fail 
 
-Every assignment, graded or pass/fail, must be handed in **paper copy at the beginning of class**. For due dates, check the [course schedule](#schedule). 
+Every assignment, graded or pass/fail, must be handed in **paper copy at the beginning of class**. 
+
+For due dates, check the [course schedule](#schedule). 
 
 ## Late policy
 
 For each day a *graded assignment* is late, one third of a letter grade will be taken off. For example, an A becomes an A-; an A-  becomes a B+; a B+ becomes a B; and so on. 
 
-If you do not hand in a *pass/fail assignment* by the due date, you have the option of *either* completing the assignment by the week after together with an *additional pass/fail assignment* at the discretion of the instructor *or* failing the assignment. The latter option will negatively affect your [final grade].
+If you do not hand in a *pass/fail assignment* by the due date, you have the option of *either* completing the assignment by the week after together with an *additional pass/fail assignment* at the discretion of the instructor *or* failing the assignment. The latter option will negatively affect your [final grade](#grading).
 
