@@ -65,7 +65,7 @@ about what it means for an algorithm to be fair.
 
 ## The ProPublica/Northpointe debate
 
-In 2016, ProPublica published a [piece](https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing) asserting that COMPAS was racially biased against blacks. ProPublica compared the risk asessments made by COMPAS with the rearrest 
+In 2016, ProPublica published a [report](https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing) asserting that COMPAS was racially biased against blacks. ProPublica compared the risk asessments made by COMPAS with the rearrest 
 [data](https://www.propublica.org/datastore/dataset/compas-recidivism-risk-score-data-and-analysis) for Broward County, Florida. Using rearrests as a proxy for recidivism, ProPublica found racial biases in COMPAS risk assessments. 
 
 COMPAS assigns to people a risk score between 1 and 10. For simplicity, think of COMPAS as a binary classifier, sorting people into two classes: those with a score of 6 or higher (considered  *high risk*) and those with a score of 5 or lower (considered *low risk*).
@@ -73,15 +73,17 @@ The analysis by ProPublica showed that blacks who were *not* rearrested were mis
 
 Northpointe (now [Equivant](https://www.equivant.com/)), the company that designed COMPAS, [responded](https://www.equivant.com/response-to-propublica-demonstrating-accuracy-equity-and-predictive-parity/) that comparing false positives and false negatives across racial groups was irrelevant. What mattered were the predictions, and COMPASS made equally accurate predictions across racial groups. Among the individuals labeled high risk, the same proportion did not reoffened for both racial groups. Further, among the individuals labeled low risk, the same proportion did reoffend for both racial groups. COMPAS was not, Northpointe argued, racially biased. 
 
-This disagreement raises the question, *What are the relevant comparison classes for assessing algorithmic fairness?*
+## What matters for algorithmic fairness?
 
-ProPublica singled out the group of actual non-reoffenders (or reoffenders) and then compared the algorithm classification errors for whites and blacks whithin this group, for example, what percentage of  white non-reoffenders are misclassified as high risk compared to the percentage of black non-reoffenders who are misclassified as high risk. 
+The disagrement between Northpointe and ProPublica raises the question, *What are the relevant comparison classes for assessing algorithmic fairness?*
 
-Northpointe, instead, singled out the group of those labeled high risk (or low risk) by COMPAS and then compared the classification errors for whites and blakcs within this group, for example, what percentage of white high risk individuals are non-reoffenders compared to the percentage of black high risk individuals who are non-reoffenders. 
+ProPublica singled out the group of actual non-reoffenders (or reoffenders) and then compared the algorithm classification errors for whites and blacks whithin this group, for example, what percentage of  white non-reoffenders are misclassified as high risk (a false positive) compared to the percentage of black non-reoffenders who are misclassified as high risk (a false negative). Call equality along this dimension *classification fairness* or equality in false positive and false negatives.
 
-The conciliatory stance that they are both right must be ruled out. It is a [mathematical impossibility](https://arxiv.org/abs/1703.00056) for an algorithm to ensure  equality in false positive and false negative rates together with equality in prediction errors across groups. So long as the prevalence of recidivism varies across groups -- as is the case between whites and blacks -- the two dimensions of equality cannot be  satisfied at the same time. We are confronted with a seeming either/or choice between two criteria of fairness. 
+Northpointe, instead, singled out the group of those labeled high risk (or low risk) by COMPAS and then compared the classification errors for whites and blakcs within this group, for example, what percentage of white high risk individuals are non-reoffenders compared to the percentage of black high risk individuals who are non-reoffenders. Call equality along this dimension *predictive fairness* or equality in prediction errors. 
 
-## Against classification equality 
+The conciliatory stance that they both matter must be ruled out. It is a [mathematical impossibility](https://arxiv.org/abs/1703.00056) for an algorithm to ensure  equality in false positive and false negative rates together with equality in prediction errors across groups. So long as the prevalence of recidivism varies across groups -- as is the case between whites and blacks -- the two dimensions of equality cannot be  satisfied at the same time. We are confronted with a seeming either/or choice between two criteria of fairness. 
+
+## Against classification fairness 
 
 Sandra G. Mayson in her 2019 article [Bias In, Bias Out](https://www.yalelawjournal.org/article/bias-in-bias-out) *Yale Law Journal* (128: 2218-2300) argues that equality in false positives and false negatives does not matter for algorithmic fairness. Her argument begins with two general premises: 
 
@@ -118,14 +120,14 @@ This is why we resort to risk assessment in the first place (2275).
 
 So another premise of Mayson's argument reads:
 
-**(P4)** *Outcomes such as being a reoffender (or being a non-reoffender) are not relevant grounds for risk assessments (simply becaue these outcomes are unknown).*
+**(P4)** *Outcomes such as being a reoffender (or being a non-reoffender) are not relevant grounds for risk assessments.*
 
 
 From **(P3)** and **(P4)**, it follows that ultimate outcomes 
 cannot render two people similarly situated. Further, since by **(P1)** being similarly 
 situated is relavent for fairness,  ultimate outcomes are irrelevant for fairness. 
 Finally, since the demand for equality in false positives and false negatives assumes 
-that equality of outcomes renders two individuals similarly situated, 
+that equality of outcomes renders two individuals similarly situated and thus is relevant for fairness, 
 that demand is misplaced. In short,
 
 > The demand for equal algorithmic treatment
@@ -137,11 +139,13 @@ This is an intriguing argument.
 But I wonder whether Mayson is too narrowly focused on risk assessment. The latter is a tool for informing pre-trial decisions about detention or release. True, what's at stake is the fairness of algorithms, but more broadly, what's at stake is the fairness of decisions based on algorithms. It is odd to say that recidivism is not a legitimate ground for decisions about detention or release. It is actually the definitive ground. After all, if one will recidivate, they should be detained, and if not, they should be released. 
 
 Mayson might reply that, since outcomes are unknowable, they cannot be grounds for decision-making. It is unclear why that should be so. If two students are, in some objective sense, equally prepared, but a test systematically ranks one below the other, the test is unfair. Objective preparation might well be unknowable, but it would be the definitive ground that renders two students equally situated relative to test taking and assessment. Deborah Hellman in her forthcoming article [Measuring Algorithmic Fairness](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3418528), *Virginia Law Review*, 
-uses a pedagogical example to argue that equality in false positive and false negative is relavent for fairness. 
+uses this pedagogical example to argue that equality in false positive and false negative is relavent for fairness. 
 
-## Another argument against classification equality
+But even if Mayson is not right about this specific point, there are other reasons to resist equality in false positives and false negatives as a criterion for fairness. 
 
-There are other reasons to resist equality in false positives and false negatives as a criterion for fairness. Suppose false positives are higher for blacks than for whites, say, 40% v. 20%. One way to equalize them is to increase the high risk threshold for blacks, say from 6 to 8, or conveserely lower the high risk threshold for whites, say from 6 to 4. 
+## Another argument against classification fairness
+
+Suppose false positives are higher for blacks than for whites, say, 40% v. 20%. One way to equalize them is to increase the high risk threshold for blacks, say from 6 to 8, or conveserely lower the high risk threshold for whites, say from 6 to 4. 
 
 If a more stringent threshold is adopted for black defedants,  more black reoffenders will be released. Since we know  crime is intraracial, this will adverserly affect the black community almost exclusively. In the name of equality, the black community will be put at even greater disadvantage.
 
@@ -155,9 +159,31 @@ These arguments are quite damning for classification equality. They can only be 
 
 A clear analytical framework is still missing. An obvious place to look is the Equal Protection Clause of the 14th Amendment as well as equal protection jurisprudence. But Aziz Z. Huq has shown this is not going to work; see his 2019 article [Racial Equity in Algorithmic Criminal Justice](https://scholarship.law.duke.edu/dlj/vol68/iss6/1/), *Duke Law Journal* (68: 1043-1134). 
 
-One legal cartegory is *disparate treatment* on the basis of protected attributes such as race or sex. Dispare treatment can occur because of racial classification, racial animus or discriminatory intent. Any use of racial classification must be justified with a clear rationale, an inquiry known as "strict scrunity". But disparate treatment is unlikely to be helpful here. Algorithms hardly have racially discriminatory intention nor do they explicitly rely on race as a predictor.
+One legal category is *disparate treatment* on the basis of protected attributes such as race or gender. Dispare treatment can occur because of racial classification, racial animus or discriminatory intent. Any use of racial classification must be justified with a clear rationale, an inquiry known as "strict scrunity". But disparate treatment is unlikely to be helpful here. Algorithms hardly have a racially discriminatory itent nor do they explicitly rely on race as a predictor.
 
-The other category is *disparate impact*, common in [Title VII](https://www.eeoc.gov/laws/statutes/titlevii.cfm) discrimination cases. Evidence of disparate impact against a protected group is enough to make a *prima facie* case of discrimination; see e.g. [Hazelwood School District v. United States](https://en.wikipedia.org/wiki/Hazelwood_School_District_v._United_States) (1977). This applies to sectors such as emplyoment and housing. The criminal justice system, however, seems exempt. In [McClensky v. Kemp](https://www.oyez.org/cases/1986/84-6811) (1987), the US Supreme Court ruled that disparate racial impact is not enough to establish a constitutional violation. Disparate impact, then, is of no help either. 
+Perhpas, the problem with racial classification is that using race in algorithms would fail to treat defendants as individuals. But so long as race is used with other factors, this concern seems unjustified. Or, perhpas, the concern is that using race sends a demeaning message and entrenches racial stereotypes. But the use of race in algorithms would be opaque, and in addition, the Supreme Court has allowed the use of race in specified contexs, for example, in college admission for the purpose of fostering diversity; see [Fisher v. University of Texas](https://en.wikipedia.org/wiki/Fisher_v._University_of_Texas_(2016)) (2016). 
+
+Another category is *disparate impact*, common in [Title VII](https://www.eeoc.gov/laws/statutes/titlevii.cfm) discrimination cases. Evidence of disparate impact against a protected group is enough to make a *prima facie* case of discrimination; see e.g. [Hazelwood School District v. United States](https://en.wikipedia.org/wiki/Hazelwood_School_District_v._United_States) (1977). This applies to sectors such as emplyoment and housing. The criminal justice system, however, seems exempt. In [McClensky v. Kemp](https://www.oyez.org/cases/1986/84-6811) (1987), the US Supreme Court ruled that disparate racial impact is not enough to establish a constitutional violation. An elaborate statistical analysis -- showing that death penalty decisions in Georgia disproportionately targeted African Americans, controlling for several variables -- was not enough to convince the Court that the system violated equal protection. Disparate impact, then, is of no help either. 
+
+Aziz Z. Huq in the 2019 [article](https://scholarship.law.duke.edu/dlj/vol68/iss6/1/) cited above 
+makes an interesting historical comment:
+
+> Current doctrinal approaches to constitutional racial
+equality ... were configured in the context of judicial efforts to
+dismantle educational segregation in the Jim Crow South and then
+during a political backlash to the Civil Rights Movement ... 
+the legal conception of racial discrimination as
+a matter of intention or classification would reflect judicial concern
+with the discretionary choices of the police officer, school board
+president, or state legislator—that is, the modal problems presented by
+mid-century civil rights law (1101).
+
+Today's context is much different:
+
+> A set of tools developed for a regulatory world of dispersed state
+actors, occasionally motivated by naked animus, cannot be
+mechanically translated into a world of centralized, computational
+decision-making (1003).
 
 ## Racial Stratification
 
