@@ -47,7 +47,7 @@ that "[i]ndividuals on the SSL are not more or less likely to become a victim of
 a homicide or shooting than the comparison group."  
 
 
-Both SSL and it newest [2019 replacement](http://directives.chicagopolice.org/directives/data/a7a57b85-155e9f4b-50c15-5e9f-7742e3ac8b0ab2d3.html) 
+SSL and its newest [2019 replacement](http://directives.chicagopolice.org/directives/data/a7a57b85-155e9f4b-50c15-5e9f-7742e3ac8b0ab2d3.html) 
 SAID (Subject Assessment and Information Dashboard) rely on [CVRM](https://home.chicagopolice.org/wp-content/uploads/2019/01/FACT-SHEET-Crime-and-Victimization-Risk-Model-1.pdf) (Crime and Victimization Risk Model), a statistical model developed by the Illinois Institute of Technology that estimates an individual's risk of becoming a victim or offender. CVRM was already part of SSL, but its newer version in SAID relies on a shorter list of predictors, excluding previous narcotic arrests and gang activity. This is part of the larger Chicago Police [Violence Reduction Strategy]( https://home.chicagopolice.org/information/violence-reduction-strategy-vrs/). 
 
 
