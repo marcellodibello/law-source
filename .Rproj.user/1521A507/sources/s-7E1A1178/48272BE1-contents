@@ -18,7 +18,8 @@ projects: []
 ---
 
 Algorithms are used in the criminal justice system to streamline decisions in policing, pre-trial risk assessment and sentencing. Individuals are assigned risk scores that track their probability of committing future crimes or being crime victims. Risk scores are based on factors that correlate more or less strongly with crime, say prior arrests, prior convictions, failure to appear in court, involvement in crime incidents. To identify the relevant factors, different statistical and machine learning methods, such as [logistic regression](https://machinelearningmastery.com/logistic-regression-for-machine-learning/), 
-are applied to historical data about crime. 
+are applied to historical data about crime. [Validations methods](https://www.nature.com/articles/s41598-018-37539-x) ensure 
+that algorithmic predictions about future crimes track actual outcomes. 
 
 Algorithms have taken the justice system by storm and are going to become even more pervasive. They promise to be efficient, objective and unbiased. But they are not without problems of course. Protected attributes, race or gender, are typically not part of the set of predictors, but if the training data are biased, algorithmic decisions will [inherit](https://www.technologyreview.com/s/612775/algorithms-criminal-justice-ai/) 
 the biases. Garbage in, garbage out. Biases in the data might 
@@ -72,15 +73,32 @@ The analysis by ProPublica showed that blacks who were *not* rearrested were mis
 
 Northpointe (now [Equivant](https://www.equivant.com/)), the company that designed COMPAS, [responded](https://www.equivant.com/response-to-propublica-demonstrating-accuracy-equity-and-predictive-parity/) that comparing false positives and false negatives across racial groups was irrelevant. What mattered were the predictions, and COMPASS made equally accurate predictions across racial groups. Among the individuals labeled high risk, the same proportion did not reoffend for both racial groups. Further, among the individuals labeled low risk, the same proportion did reoffend for both racial groups. COMPAS was not, Northpointe argued, racially biased. 
 
-## What matters for algorithmic fairness?
+## What does algorithmic fairness demand?
 
-The disagreement between Northpointe and ProPublica raises the question, *What are the relevant comparison classes for assessing algorithmic fairness?*
+The disagreement between Northpointe and ProPublica raises the question, *what does algorithmic fairness consist in*?
 
 ProPublica singled out the group of actual non-reoffenders (or reoffenders) and then compared the algorithm classification errors for whites and blacks within this group, for example, what percentage of  white non-reoffenders are misclassified as high risk (a false positive) compared to the percentage of black non-reoffenders who are misclassified as high risk (a false positive again). Call equality along this dimension *classification fairness* or equality in false positives and false negatives.
 
 Northpointe, instead, singled out the group of those labeled high risk (or low risk) by COMPAS and then compared the classification errors for whites and blacks within this group, for example, what percentage of white high risk individuals are non-reoffenders compared to the percentage of black high risk individuals who are non-reoffenders. Call equality along this dimension *predictive fairness* or equality in prediction errors. 
 
-The conciliatory stance thatboth these dimensions matter must be ruled out. It is a [mathematical impossibility](https://arxiv.org/abs/1703.00056) for an algorithm to ensure  equality in false positive and false negative rates together with equality in prediction errors across groups. So long as the prevalence of recidivism differs -- as is the case between whites and blacks -- the two dimensions of equality cannot be  satisfied at the same time. We are confronted with a seeming either/or choice between two criteria of fairness. 
+ The computer science literature has 
+identified several possible definitions of fairness -- [21 in fact](https://www.youtube.com/watch?v=jIXIuYdnyyk) -- by equalizing  along different dimensions. Two of the most important are:
+
+-  classification fairness, that is, equality in false positive and false negative rates across groups
+-  predictive fairness or equal predictive accuracy 
+
+The debate between ProPublica and Northpointe was about which of these two 
+should matter most for fairness. 
+The conciliatory stance that both matter must be ruled out. It is a [mathematical impossibility](https://arxiv.org/abs/1703.00056) for an algorithm to ensure  equality in false positive and false negative rates together with equality in prediction errors across groups. So long as the prevalence of recidivism or crime differs -- as is the case between whites and blacks -- the two dimensions of equality cannot be  satisfied at the same time. We are confronted with an either/or choice.
+
+Two other conceptions of algorithmic fairness include:
+
+-  same threshold fairness, that is, the same risk threshold is applied to different groups
+-  statistical parity, that is, the same proportion of members of different groups are coerced 
+as a result of algorithmic decisions
+
+Statistical parity is sometimes rejected because if two groups have different rates of criminality, an accurate algorithm is expected to reflect this difference, and thus statistial parity will be violated. Same threshold fairness seems hard to reject. It seems unfair to impose coercion on members of one group using a different standard compared to members of another group. Closer scrutiny (more on this [below](#huq)) suggests this is not so obvious. 
+
 
 ## Against classification fairness 
 
@@ -140,45 +158,39 @@ But I wonder whether Mayson is too narrowly focused on risk assessment. The latt
 Mayson might reply that, since outcomes are unknowable, they cannot be grounds for decision-making. It is unclear why that should be so. If two students are, in some objective sense, equally prepared, but a test systematically ranks one below the other, the test is unfair. Objective preparation might well be unknowable, but it would be the definitive ground that renders two students equally situated relative to test taking and assessment. Deborah Hellman in her forthcoming article [Measuring Algorithmic Fairness](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3418528), *Virginia Law Review*, 
 uses this pedagogical example to argue that equality in false positives and false negatives matters for fairness. 
 
-But even if Mayson is not right about this specific point, there are other reasons to resist equality in false positives and false negatives as a criterion for fairness. 
 
-## Another argument against classification fairness
+## Against classification fairness (cont'ed)
 
+Even if Mayson's argumet isn't right, there are other reasons 
+to resist equality in false positives and false negatives as 
+an adequate criterion for fairness. 
 Suppose false positives are higher for blacks than for whites, say, 40% v. 20%. One way to equalize them is to increase the high risk threshold for blacks, say from 6 to 8, or conversely lower the high risk threshold for whites, say from 6 to 4. 
 
 If a more stringent threshold is adopted for black defedants,  more black reoffenders will be released. Since we know  crime is intraracial, this will adversely affect the black community almost exclusively. In the name of equality, the black community will be put at even greater disadvantage, other things equal (see, however, the argument [below](#huq)).
 
 If a less stringent threshold is adopted for white defendants, nobody will be better off. Blacks would still be subject to a 40% false positive rate, and whites also would be subject to a 40% false positive rate compared to the original 20%. Whites would be worse off with no gain for blacks. This is the so-called [leveling down objection](http://aristotle.rutgers.edu/joomlatools-files/docman-files/7Equality,Priority,andLDO.pdf) to egalitarianism.
 
-Another problem is that, by changing the decision threshold, people in different groups would be classified high risk or low risk following different thresholds, and this is a possible violation of equal treatment or procedural fairness. 
+Another problem is that, by changing the decision threshold, people in different groups would be classified high risk or low risk following different thresholds - a violation of same threshold fairness. 
 
-These arguments can be escaped if it is possible to equalize false positives and false negatives *without* adjusting the decision threshold. I believe this can be done, but I will leave it for another time.
-
-
-## What analytical framework for algorithmic fairness?
-
-Even if the arguments against classification fairness are correct, a larger problem remains. 
-A clear analytical framework for algorithmic fairness is still missing.
-
- The computer science literature has 
-identified several possible definitions of fairness -- [21 in fact](https://www.youtube.com/watch?v=jIXIuYdnyyk) -- by equalizing metrics along different dimensions.
-Besides classification and predictive fairness that were discussed earlier, two other conceptions are worth noting. One is *same threshold fairness*. That is, the same decision threshold is applied to different groups. Another is *statistical parity* or *proportional representation*. That is, the proportion in the general population of members of groups who are coerced must be proportional to the group's overall share in the general population. Yet, except for a general concern for equality, this literature offers little guidance about which conception should matter and why.
-
-Another strategy is to borrow from the philosophical literature on [equality of opportunity](https://plato.stanford.edu/entries/equal-opportunity/). One idea in this literature is that an 
-unequal distribution of goods is justified only if it stems from differences in abilities, talents and effort. 
-Call this *fair equality of opportunity*. Another view is that an unequal distribution of goods is justified only if it stems from differences due to choices under one's control, not to accidental and uncontrollable circumstances. Call this *luck egalitarianism*.
-These ideas could be [helpful](https://arxiv.org/pdf/1809.03400.pdf) in theorizing about algorithmic fairness. 
+These problems can be avoided if false positives and false negatives  are equalized *without* adjusting the decision threshold. I believe this can be done, but I will leave it for another time.
 
 
 ## Equal protection jurisprudence
 
-Another place to look for an analytical framework is the [Equal Protection Clause](https://www.law.cornell.edu/wex/equal_protection) of the 14th Amendment as well as equal protection jurisprudence. But Aziz Z. Huq has shown this is not going to work; see his 2019 article [Racial Equity in Algorithmic Criminal Justice](https://scholarship.law.duke.edu/dlj/vol68/iss6/1/), *Duke Law Journal* (68: 1043-1134). 
+But a larger problem remains. 
+A clear analytical framework for algorithmic fairness is still missing. The computer 
+science literature provides several possible definitions, but no clear reason why they 
+matter for algorithmic fairness and to what extent. 
 
-One legal category is *disparate treatment* on the basis of protected attributes such as race or gender. Disparate treatment can occur because of racial classification, racial animus or discriminatory intent. Any use of racial classification must be justified with a clear rationale, an inquiry known as "strict scrutiny". But disparate treatment is unlikely to be helpful here. Algorithms hardly have a racially discriminatory intent nor do they explicitly rely on race as a predictor.
+One obvious place to look is the [equal protection jurisprudence](https://www.law.cornell.edu/wex/equal_protection), specifically, 
+the notions of disparate treatment and disparate impact. 
+Aziz Z. Huq has shown, however, this is not going to work; see his 2019 article [Racial Equity in Algorithmic Criminal Justice](https://scholarship.law.duke.edu/dlj/vol68/iss6/1/), *Duke Law Journal* (68: 1043-1134). 
+
+Start with *disparate treatment* based on protected categories such as race or gender. Disparate treatment can occur because of racial classification, racial animus or discriminatory intent. Any use of racial classification must be justified with a clear rationale, an inquiry known as "strict scrutiny". But disparate treatment is unlikely to be helpful here. Algorithms hardly have a racially discriminatory intent nor do they explicitly rely on race as a predictor.
 
 Perhpas, the problem with racial classification is that using race in algorithms would fail to treat defendants as individuals. But so long as race is used with other factors or not used at all, this concern seems unjustified. Or, perhaps, the concern is that using race sends a demeaning message and entrenches racial stereotypes. But the use of race in algorithms is usually opaque. Further, the Supreme Court has allowed the use of race in specified contexts, for example, in college admission for the purpose of fostering diversity; see [Fisher v. University of Texas](https://en.wikipedia.org/wiki/Fisher_v._University_of_Texas_(2016)) (2016). 
 
-Another category is *disparate impact*, common in [Title VII](https://www.eeoc.gov/laws/statutes/titlevii.cfm) discrimination cases. Evidence of disparate impact against a protected group is enough to make a *prima facie* case of discrimination; see e.g. [Hazelwood School District v. United States](https://en.wikipedia.org/wiki/Hazelwood_School_District_v._United_States) (1977). This applies to sectors such as employment and housing. The criminal justice system, however, seems exempt. In [McClensky v. Kemp](https://www.oyez.org/cases/1986/84-6811) (1987), the US Supreme Court ruled that disparate racial impact is not enough to establish a constitutional violation. An elaborate statistical analysis -- showing that death penalty decisions in Georgia disproportionately targeted African Americans, controlling for several variables -- was not enough to convince the Court that the system violated equal protection. 
+What about *disparate impact* as invoked in [Title VII](https://www.eeoc.gov/laws/statutes/titlevii.cfm) discrimination cases? Evidence of disparate impact against a protected group is enough to make a *prima facie* case of discrimination; see e.g. [Hazelwood School District v. United States](https://en.wikipedia.org/wiki/Hazelwood_School_District_v._United_States) (1977). This applies to sectors such as employment and housing. The criminal justice system, however, seems exempt. In [McClensky v. Kemp](https://www.oyez.org/cases/1986/84-6811) (1987), the US Supreme Court ruled that disparate racial impact is not enough to establish a constitutional violation. An elaborate statistical analysis -- showing that death penalty decisions in Georgia disproportionately targeted African Americans, controlling for several variables -- was not enough to convince the Court that the system violated equal protection. 
 
 Huq in the 2019 [article](https://scholarship.law.duke.edu/dlj/vol68/iss6/1/) cited above 
 makes an interesting historical comment:
@@ -221,36 +233,53 @@ latter take many forms, including the effect of high incarceration rates
 on black communities and children as well as the social signification of
 race as a marker of criminality (1113)
 
-These broader costs, such as negative effects on family life, employment and racial stigma, 
-are likely to disproportionally 
+These broader costs, such as spillover negative effects on family life, employment and racial stigma, 
+are likely to disproportionately 
 affect minorities. As Huq writes:
 
-> the evidence
-suggests that these impacts are felt principally by members of racial
-minorities ... the spillover costs of coercion of minority
+>  the spillover costs of coercion of minority
 individuals for the minority group will be greater on a per capita basis
 than the costs of coercing majority group members (1113). 
 
-This observation has an important consequence. 
-If the risk threshold for decisions about detention and release should be efficient and if minorities are exposed to greater spillover costs 
-by coercive algorithmic decisions, thresholds should be more stringent 
-for minorities. In other words:
+This observation has an important consequence. That is:
 
 >   accounting for both the immediate
 and spillover costs of crime control when its immediate benefits are
 small conduces to a bifurcated risk threshold—one rule for the
 majority, and one for minority (1131).
 
-But there is a problem. The multiple threshold proposal 
-might be unconstitutional:
+Decision thresholds should be set at a socially efficient level balancing costs and benefits of pre-trial coercion. If the costs of coercion are higher for blacks than for whites because of spillover effects, 
+the standard for imposing corecion must be more stringent for blacks than for whites, other things equal.
 
-> a multiple threshold rule for different racial
-groups runs headlong into the anticlassification rule of equal protection
-doctrine .. [it] would be in serious constitutional
-jeopardy (1133).
+Huq's argument has the merit of locating the question of algorithmic fairness in the context of racial stratification without narrowly focusing on equality metrics. But, as a consequentialism argument, it neglects comparative, fairness-based considerations. 
 
-Would this be an argument against the proposal? Huq writes:
+Presumbly, Huq would say that coercing non-reoffender blacks at much higer rates than non-reoffenders whites is justified provided the coercion has positive net benefits for the black community as a whole. In this framework, 
+the difference between reoffeders and non-reoffenders has limited significance:
 
-> Such a result, in my view,
-tells us more about our wrongheaded racial equality doctrine than it
-does about the substance of algorithmic criminal justice (1133).
+> there is no
+particular reason to believe that any of these spillover costs are less if
+the person subject to the coercion is in fact a true rather than false
+positive ... what should matter is the absolute cost of using a coercive tactic against a
+member of a minority group, net of benefit, for all members of that
+racial group. (1127-28)
+
+An additional complication is that much of Huq's argument rests on spillover effects and externalities, but 
+these are less relevant in the case of serious crimes. As Huq notes:
+
+> ... to focus
+solely on the immediate costs and benefits of a coercive intervention
+and to ignore externalities ... seems a plausible
+approach with serious crimes, where externalities are dwarfed by
+immediate costs and benefits (1113). 
+
+When externalities can be ignored, the same threshold should presumably be imposed for whites and blacks for pre-trial coercion meant to avoid serious crimes, other things being equal. Yet, if most crime is intraracial, the  prevention of serious crimes in black communities might have greater net benefits than in white communities. After all, a wealthier family can more easily cope with the loss of an adult figure than a less wealthy family. If this is corretc, Huq's consequentialist framework would mandate that a *less* stringent threshold apply for algorithm-based coercion meant to prevent serious crimes in black communities. 
+
+
+
+
+<!--
+ Another strategy is to borrow from the philosophical literature on [equality of opportunity](https://plato.stanford.edu/entries/equal-opportunity/). One idea in this literature is that an 
+ unequal distribution of goods is justified only if it stems from differences in abilities, talents and effort. 
+ Call this *fair equality of opportunity*. Another view is that an unequal distribution of goods is justified only if it stems from differences due to choices under one's control, not to accidental and uncontrollable circumstances. Call this *luck egalitarianism*.
+ These ideas could be [helpful](https://arxiv.org/pdf/1809.03400.pdf) in theorizing about algorithmic fairness. 
+-->
