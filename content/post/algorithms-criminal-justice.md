@@ -60,7 +60,7 @@ Many algorithms are used to guide pre-trial risk assessment decisions. These dec
 [PSA](https://www.psapretrial.org/), an algorithm developed by [ArnoldVentures](https://www.arnoldventures.org/), is now widely used in several jurisdictions for this purpose. A [report](https://www.mdrc.org/sites/default/files/PSA_New_Jersey_Report_%231.pdf) 
 shows that the adoption of PSA in New Jersey as part of the [Criminal Justice Reform](https://njcourts.gov/courts/criminal/reform.html) has "reduced the length of time defendants spend in jail in the month following arrest." There was  a [20% reduction](https://www.njcourts.gov/courts/assets/criminal/cjrreport.pdf) in the pre-trial jail population in 2017 after PSA was adopted. The ACLU of New Jersey [endorsed](https://www.aclu-nj.org/theissues/criminaljustice/pretrial-justice-reform) the reform because it ended the pre-trial system of money and bail that disproportionately harms the poor.
 
-But, perhaps, the most famous and most discussed algorithmic tool for pre-trial 
+But, perhaps, the most famous and discussed algorithmic tool for pre-trial 
 crime prevention is [COMPAS](https://en.wikipedia.org/wiki/COMPAS_(software)). It was at the center of a controversy 
 about what it means for an algorithm to be fair. 
 
@@ -171,19 +171,20 @@ If a more stringent threshold is adopted for black defedants,  more black reoffe
 
 If a less stringent threshold is adopted for white defendants, nobody will be better off. Blacks would still be subject to a 40% false positive rate, and whites also would be subject to a 40% false positive rate compared to the original 20%. Whites would be worse off with no gain for blacks. This is the so-called [leveling down objection](http://aristotle.rutgers.edu/joomlatools-files/docman-files/7Equality,Priority,andLDO.pdf) to egalitarianism.
 
-Another problem is that, by changing the decision threshold, people in different groups would be classified high risk or low risk following different thresholds - a violation of same threshold fairness. 
+Another problem is that people in different groups would be classified high risk or low risk following different thresholds - a violation of same threshold fairness. 
 
-These problems can be avoided if false positives and false negatives  are equalized *without* adjusting the decision threshold. I believe this can be done, but I will leave it for another time.
+These problems can be avoided if false positives and false negatives  can be equalized *without* adjusting the decision threshold. I believe this can be done, but I leave it for another time.
 
 
 ## Equal protection jurisprudence
 
-But a larger problem remains. 
+A larger problem remains. 
 A clear analytical framework for algorithmic fairness is still missing. The computer 
 science literature provides several possible definitions, but no clear reason why they 
-matter for algorithmic fairness and to what extent. 
+matter for algorithmic fairness and to what extent. Defending one conception or another, 
+in a piecemeal way, is unsatisfactory. 
 
-One obvious place to look is the [equal protection jurisprudence](https://www.law.cornell.edu/wex/equal_protection), specifically, 
+One obvious place to look for a general framework is [equal protection jurisprudence](https://www.law.cornell.edu/wex/equal_protection), specifically, 
 the notions of disparate treatment and disparate impact. 
 Aziz Z. Huq has shown, however, this is not going to work; see his 2019 article [Racial Equity in Algorithmic Criminal Justice](https://scholarship.law.duke.edu/dlj/vol68/iss6/1/), *Duke Law Journal* (68: 1043-1134). 
 
@@ -193,8 +194,8 @@ Perhpas, the problem with racial classification is that using race in algorithms
 
 What about *disparate impact* as invoked in [Title VII](https://www.eeoc.gov/laws/statutes/titlevii.cfm) discrimination cases? Evidence of disparate impact against a protected group is enough to make a *prima facie* case of discrimination; see e.g. [Hazelwood School District v. United States](https://en.wikipedia.org/wiki/Hazelwood_School_District_v._United_States) (1977). This applies to sectors such as employment and housing. The criminal justice system, however, seems exempt. In [McClensky v. Kemp](https://www.oyez.org/cases/1986/84-6811) (1987), the US Supreme Court ruled that disparate racial impact is not enough to establish a constitutional violation. An elaborate statistical analysis -- showing that death penalty decisions in Georgia disproportionately targeted African Americans, controlling for several variables -- was not enough to convince the Court that the system violated equal protection. 
 
-Huq in the 2019 [article](https://scholarship.law.duke.edu/dlj/vol68/iss6/1/) cited above 
-makes an interesting historical comment:
+Huq in his 2019 [article](https://scholarship.law.duke.edu/dlj/vol68/iss6/1/) 
+makes a historical comment:
 
 > Current doctrinal approaches to constitutional racial
 equality ... were configured in the context of judicial efforts to
@@ -211,7 +212,7 @@ Today's context is much different:
 > A set of tools developed for a regulatory world of dispersed state
 actors, occasionally motivated by naked animus, cannot be
 mechanically translated into a world of centralized, computational
-decision-making (1003).
+decision-making (1103).
 
 ## Cost/benefit and multiple thresholds {#huq}
 
@@ -219,22 +220,18 @@ Huq favors a cost/benefit framework:
 
 >  the key question for racial equity is whether the costs
 that an algorithmically driven policy imposes upon a minority group
-outweigh the benefits accruing to that group. If an algorithmic tool
-generates public security by imposing greater costs (net of benefits) for
-blacks as a group, it raises a racial equity concern (1111).
+outweigh the benefits accruing to that group (1111).
 
-What are the costs? We could take a narrow view and consider 
+A narrow view considers 
 just immediate benefits (say, increased public safety) 
-and costs (say, unwarranted detention). We could also 
-take a broader view on costs:
+and immediate costs (say, unwarranted detention). But besides immediate costs, 
+there are also more far reaching externalities:
 
-> An alternative approach accounts for
-both immediate costs and also externalities for different groups. The
-latter take many forms, including the effect of high incarceration rates
+> [they] take many forms, including the effect of high incarceration rates
 on black communities and children as well as the social signification of
 race as a marker of criminality (1113)
 
-These broader costs, such as spillover negative effects on family life, employment and racial stigma, 
+These  negative spillover effects on family life, employment and racial stigma, 
 are likely to disproportionately 
 affect minorities. As Huq writes:
 
@@ -242,19 +239,19 @@ affect minorities. As Huq writes:
 individuals for the minority group will be greater on a per capita basis
 than the costs of coercing majority group members (1113). 
 
-This observation has an important consequence. That is:
+This observation has an important consequence. 
+If decision thresholds should be set at a socially efficient level balancing costs and benefits of pre-trial coercion, and if the costs of coercion are higher for blacks than for whites because of uneven spillover effects, 
+then the standard for imposing corecion must be more stringent for blacks than for whites, other things equal.
+As Huq writes:
 
 >   accounting for both the immediate
 and spillover costs of crime control when its immediate benefits are
 small conduces to a bifurcated risk threshold—one rule for the
 majority, and one for minority (1131).
 
-Decision thresholds should be set at a socially efficient level balancing costs and benefits of pre-trial coercion. If the costs of coercion are higher for blacks than for whites because of spillover effects, 
-the standard for imposing corecion must be more stringent for blacks than for whites, other things equal.
+This argument has the merit of locating the question of algorithmic fairness in the context of racial stratification without narrowly focusing on equality metrics. But, as a consequentialism argument, it essentially ignores comparative, fairness-based considerations. 
 
-Huq's argument has the merit of locating the question of algorithmic fairness in the context of racial stratification without narrowly focusing on equality metrics. But, as a consequentialism argument, it neglects comparative, fairness-based considerations. 
-
-Presumbly, Huq would say that coercing non-reoffender blacks at much higer rates than non-reoffenders whites is justified provided the coercion has positive net benefits for the black community as a whole. In this framework, 
+Presumbly, Huq would say that coercing non-reoffender blacks at much higer rates than non-reoffenders whites is justified provided the coercion has positive net benefits for the black community as a whole. In this context, 
 the difference between reoffeders and non-reoffenders has limited significance:
 
 > there is no
@@ -273,7 +270,7 @@ and to ignore externalities ... seems a plausible
 approach with serious crimes, where externalities are dwarfed by
 immediate costs and benefits (1113). 
 
-When externalities can be ignored, the same threshold should presumably be imposed for whites and blacks for pre-trial coercion meant to avoid serious crimes, other things being equal. Yet, if most crime is intraracial, the  prevention of serious crimes in black communities might have greater net benefits than in white communities. After all, a wealthier family can more easily cope with the loss of an adult figure than a less wealthy family. If this is corretc, Huq's consequentialist framework would mandate that a *less* stringent threshold apply for algorithm-based coercion meant to prevent serious crimes in black communities. 
+When externalities can be ignored, the same threshold should presumably be imposed for whites and blacks for pre-trial coercion, other things being equal. Yet, if most crime is intraracial, the  prevention of serious crimes in some communities might have greater net benefits than in other communities. After all, a wealthier family can more easily cope with the loss of an adult figure than a less wealthy family. Huq's consequentialist framework would mandate that a *less* stringent threshold apply for algorithm-based coercion meant to prevent serious crimes in black communities so long as the prevention of serious crime in black communites has greater net benefits.  
 
 
 
