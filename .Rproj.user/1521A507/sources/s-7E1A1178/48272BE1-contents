@@ -15,6 +15,7 @@ image:
   focal_point: ''
   preview_only: no
 projects: []
+toc: true
 ---
 
 Algorithms are used in the criminal justice system to streamline decisions in policing, pre-trial risk assessment and sentencing. Individuals are assigned risk scores that track their probability of committing future crimes or being crime victims. Risk scores are based on factors that correlate more or less strongly with crime, say prior arrests, prior convictions, failure to appear in court, involvement in crime incidents. To identify the relevant factors, different statistical and machine learning methods, such as [logistic regression](https://machinelearningmastery.com/logistic-regression-for-machine-learning/), 
