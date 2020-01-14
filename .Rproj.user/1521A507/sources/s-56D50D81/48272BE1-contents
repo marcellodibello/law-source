@@ -162,6 +162,8 @@ But I wonder whether Mayson is too narrowly focused on risk assessment. The latt
 
 Mayson might reply that, since outcomes are unknowable, they cannot be grounds for decision-making. It is unclear why that should be so. If two students are, in some objective sense, equally prepared, but a test systematically ranks one below the other, the test is unfair. Objective preparation might well be unknowable, but it would be the definitive ground that renders two students equally situated relative to test taking and assessment. Deborah Hellman in her forthcoming article [Measuring Algorithmic Fairness](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3418528), *Virginia Law Review*, 
 uses this pedagogical example to argue that equality in false positives and false negatives matters for fairness. 
+There are [interesting parallels](https://www.youtube.com/watch?v=nksfAaEJtm8) between 
+fairness in standarized tests, a topic much discussed in the sixties, and today's debate about algorithmic fairness.  
 
 
 ## Against classification fairness (cont'ed)
