@@ -57,26 +57,26 @@ The course meets every **Tuesday** from **2pm** to **4:40pm** in **Carman 349**.
 
 
 | Date        | Readings                                                      | Other materials     | |Assignments due | 
-|-------------|---------------------------------------------------------------|---------------------|-|----------------|
-| **PART 1** | **Law and interpretation**                                     |                     | |                |           
-| Jan 28      | No readings: course introduction                              |                     | |                |           
-| Feb 4       | [Hammurabi's code][Hammurabi] and [NY Penal Code][NYPenal]    | [post][ham-NY-post] | | [Graded #1]     |         
-| Feb 11      | [Tennessee Valley Authority v. Hill (1978)][TVA]              | [summary][TVA-s]    | |[Pass/Fail #1]   |          
-| Feb 18      | [DeBoer v. Snyder (6th Circuit, 2014)][Boer]                  | [summary][Boer-s]   | |                 |           
+|-------------|---------------------------------------------------------------|---------------------|-|---------------- |
+| **PART 1** | **Law and interpretation**                                     |                     | |                     |           
+| Jan 28      | No readings: course introduction                              |                     | |                     |           
+| Feb 4       | [Hammurabi's code][Hammurabi] and [NY Penal Code][NYPenal]    | [post][ham-NY-post] | |[Graded #1][A-1]     |         
+| Feb 11      | [Tennessee Valley Authority v. Hill (1978)][TVA]              | [summary][TVA-s]    | |[Pass/Fail #1][PF-1] |          
+| Feb 18      | [DeBoer v. Snyder (6th Circuit, 2014)][Boer]                  | [summary][Boer-s]   | |                     |           
 | Feb 25      | Writing workshop                                                                          |           
-| **PART 2**  | **Law and Morality**                                                                                    |           
-| Mar 3       | Sophocle, [*Antigone*][Antigone-t]                            | [video][Antigone-v] | |[Graded #2]      |          
-| Mar 10      | Plato, [*Crito*][Crito-t]                                     | [video][Crito-v]    | |[Pass/Fail #2]   |         
-| Mar 17      | Hart, [*Positivism and the Separation of Laws and Morals*][Hart]|                   | |[Pass/Fail #3]   |
-| Mar 24      | Fuller, [*Positivism and Fidelity to the Law*][Fuller]        |                     | |                 |    
-| Mar 31      | Writing workshop                                                                                        |
-| Apr 7       | **No class**                                                                                            |
-| Apr 14      | **No class: Spring break**                                                                              |
-| **PART 3**  | **Algorithms in Criminal Justice**                                                                      |
-| Apr 28      | Mayson, [Bias In, Bias Out][Mayson]                           | [post][algo-post]   | | [Graded #3]     |
-| May 5       | Aziz, [Racial Equity in Algorithmic Criminal Justice][Aziz]   |                     | | [Pass/Fail #4]  |
-| May 12      | Writing workshop                                                                                        | 
-| May 19      | **No class: exam period**                                     |                     | | [Graded #4]     |
+| **PART 2**  | **Law and Morality**                                                                                          |           
+| Mar 3       | Sophocle, [*Antigone*][Antigone-t]                            | [video][Antigone-v] | |[Graded #2][A-2]     |          
+| Mar 10      | Plato, [*Crito*][Crito-t]                                     | [video][Crito-v]    | |[Pass/Fail #2][PF-2] |         
+| Mar 17      | Hart, [*Positivism and the Separation of Laws and Morals*][Hart]|                   | |[Pass/Fail #3][PF-3] |
+| Mar 24      | Fuller, [*Positivism and Fidelity to the Law*][Fuller]        |                     | |                     |    
+| Mar 31      | Writing workshop                                                                                            |
+| Apr 7       | **No class**                                                                                                 |
+| Apr 14      | **No class: Spring break**                                                                                   |
+| **PART 3**  | **Algorithms in Criminal Justice**                                                                          |
+| Apr 28      | Mayson, [Bias In, Bias Out][Mayson]                           | [post][algo-post]   | | [Graded #3][A3]     |
+| May 5       | Aziz, [Racial Equity in Algorithmic Criminal Justice][Aziz]   |                     | | [Pass/Fail #4][PF-4]|
+| May 12      | Writing workshop                                                                                            | 
+| May 19      | **No class: exam period**                                     |                     | | [Graded #4][A-4]    |
 
 [Hammurabi]: https://avalon.law.yale.edu/ancient/hamframe.asp               
 [NYPenal]: http://ypdcrime.com/penal.law/ 
@@ -101,14 +101,14 @@ The course meets every **Tuesday** from **2pm** to **4:40pm** in **Carman 349**.
 
 [ham-NY-post]: /post/hammurabi-v-ny/
 [algo-post]: /post/algorithms-criminal-justice/
-[A-1]: http://
-[A-2]: http://
-[A-3]: http://
-[A-4]: http://
+[A-1]: http://www.marcellodibello.com/PHI234/resources/PHI234-2020-A1.pdf
+[A-2]: http://www.marcellodibello.com/PHI234/resources/PHI234-2020-A2.pdf
+[A-3]: http://www.marcellodibello.com/PHI234/resources/PHI234-2020-A3.pdf
+[A-4]: http://www.marcellodibello.com/PHI234/resources/PHI234-2020-A4.pdf
 
-[PF-1]: http://
-[PF-2]: http://
-[PF-3]: http://
-[PF-4]: http://
+[PF-1]: http://www.marcellodibello.com/PHI234/resources/PHI234-2020-PF1.pdf
+[PF-2]: http://www.marcellodibello.com/PHI234/resources/PHI234-2020-PF2.pdf
+[PF-3]: http://www.marcellodibello.com/PHI234/resources/PHI234-2020-PF3.pdf
+[PF-4]: http://www.marcellodibello.com/PHI234/resources/PHI234-2020-PF4.pdf
 
 
