@@ -66,8 +66,9 @@ Can they improve the justice system?
 
 The instructor for the course is [Marcello Di Bello](#about). 
 
-[syll]: http://www.marcellodibello.com/PHI234/resources/PhiLaw-Syllabus2020.pdf
 
 {{% alert note %}}
-All course materials are available on this website. Check out the [course schedule](#schedule) and [syllbus][syll].  **Blackboard will not be used**. Please check this website regularly for updates. 
+All course materials are available on this website. Check out the [course schedule](#schedule) and [syllabus][syll].  **Blackboard will not be used**. Please check this website for updates. 
 {{% /alert %}}
+
+[syll]: http://www.marcellodibello.com/PHI234/resources/PhiLaw-Syllabus2020.pdf
