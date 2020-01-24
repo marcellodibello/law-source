@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1579823385641.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "9766A2BF",
+    "lastKnownWriteTime" : 1578504084,
+    "last_content_update" : 1578504084,
+    "path" : "~/Documents/GitHub/law-source/content/home/demo.md",
+    "project_path" : "content/home/demo.md",
+    "properties" : {
+        "cursorPosition" : "53,50",
+        "scrollLine" : "45"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "markdown"
+}

@@ -73,7 +73,7 @@ The course meets every **Tuesday** from **2pm** to **4:40pm** in **Carman 349**.
 | Apr 7       | **No class**                                                                                                 |
 | Apr 14      | **No class: Spring break**                                                                                   |
 | **PART 3**  | **Algorithms in Criminal Justice**                                                                          |
-| Apr 28      | Mayson, [Bias In, Bias Out][Mayson]                           | [post][algo-post]   | | [Graded #3][A3]     |
+| Apr 28      | Mayson, [Bias In, Bias Out][Mayson]                           | [post][algo-post]   | | [Graded #3][A-3]     |
 | May 5       | Aziz, [Racial Equity in Algorithmic Criminal Justice][Aziz]   |                     | | [Pass/Fail #4][PF-4]|
 | May 12      | Writing workshop                                                                                            | 
 | May 19      | **No class: exam period**                                     |                     | | [Graded #4][A-4]    |
