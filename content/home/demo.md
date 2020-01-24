@@ -64,7 +64,7 @@ The course is divided into three parts:
 3. **Algorithms and the justice system** -- How are algorithms used in the justice system today?Do they pose a threat? 
 Can they improve the justice system?
 
-The instructor for the course is [Marcello Di Bello](#about). 
+The instructor for the course is [Marcello Di Bello](www.marcellodibello.com). 
 
 
 {{% alert note %}}
