@@ -51,7 +51,7 @@ subtitle = "PHI 234/POL 312"
  css_class = ""
 +++
 
-Welcome to **PHI 234 / POL 312** for Spring 2020! [SYLLABUS][syll].
+Welcome to **PHI 234 / POL 312** for Spring 2020! [SYLLABUS][syll]
 
 This is an introduction to philosophical questions about law, legal reasoning and the justice system. 
 
