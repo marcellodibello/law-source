@@ -68,8 +68,7 @@ The instructor for the course is [Marcello Di Bello](#about).
 
 
 {{% alert note %}}
-All course materials are available on this website. Check out the [course schedule](#schedule) and [syllabus][syll].  **Blackboard will not be used**. Please check this website for updates. 
-[syll]: http://www.marcellodibello.com/PHI234/resources/PhiLaw-Syllabus2020.pdf
+All course materials are available on this website. Check out the [course schedule](#schedule) and [syllabus](http://www.marcellodibello.com/PHI234/resources/PhiLaw-Syllabus2020.pdf).  **Blackboard will not be used**. Please check this website for updates. 
 {{% /alert %}}
 
 
