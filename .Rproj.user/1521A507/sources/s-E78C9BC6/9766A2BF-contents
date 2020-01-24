@@ -51,7 +51,7 @@ subtitle = "PHI 234/POL 312"
  css_class = ""
 +++
 
-Welcome to **PHI 234 / POL 312** for Spring 2020! [SYLLABUS][syll]
+Welcome to **PHI 234 / POL 312** for Spring 2020! 
 
 This is an introduction to philosophical questions about law, legal reasoning and the justice system. 
 
@@ -69,5 +69,5 @@ The instructor for the course is [Marcello Di Bello](#about).
 [syll]: http://www.marcellodibello.com/PHI234/resources/PhiLaw-Syllabus2020.pdf
 
 {{% alert note %}}
-All course materials are available on this website. Check out the [course schedule](#schedule).  **Blackboard will not be used**. Please check this website regularly for updates. 
+All course materials are available on this website. Check out the [course schedule](#schedule) and [syllbus][syll].  **Blackboard will not be used**. Please check this website regularly for updates. 
 {{% /alert %}}
