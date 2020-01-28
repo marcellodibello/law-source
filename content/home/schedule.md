@@ -59,7 +59,7 @@ The course meets every **Tuesday** from **2pm** to **4:40pm** in **Carman 349**.
 | Date        | Readings                                                      | Other materials     | |Assignments due | 
 |-------------|---------------------------------------------------------------|---------------------|-|---------------- |
 | **PART 1** | **Law and interpretation**                                     |                     | |                     |           
-| Jan 28      | No readings: course introduction                              |                     | |                     |           
+| Jan 28      | Fassin, [Why Does One Punish?][Fassin-punish]                  |                     | |                     |           
 | Feb 4       | [Hammurabi's code][Hammurabi] and [NY Penal Code][NYPenal]    | [post][ham-NY-post] | |[Graded #1][A-1]     |         
 | Feb 11      | [Tennessee Valley Authority v. Hill (1978)][TVA]              | [summary][TVA-s]    | |[Pass/Fail #1][PF-1] |          
 | Feb 18      | [DeBoer v. Snyder (6th Circuit, 2014)][Boer]                  | [summary][Boer-s]   | |                     |           
@@ -78,6 +78,8 @@ The course meets every **Tuesday** from **2pm** to **4:40pm** in **Carman 349**.
 | May 12      | Writing workshop                                                                                            | 
 | May 19      | **No class: exam period**                                     |                     | | [Graded #4][A-4]    |
 
+
+[Fassin-punish]: http://www.marcellodibello.com/PHI234/resources/Fassin-WillPunish-Chp2.pdf
 [Hammurabi]: https://avalon.law.yale.edu/ancient/hamframe.asp               
 [NYPenal]: http://ypdcrime.com/penal.law/ 
 [Boer]: http://www.marcellodibello.com/PHI234/resources/Boer2014.pdf
