@@ -62,9 +62,9 @@ The course meets every **Tuesday** from **2pm** to **4:40pm** in **Carman 349**.
 | Jan 28      | Fassin, [Why Does One Punish?][Fassin-punish]                  |                     | |                     |           
 | Feb 4       | [Hammurabi's code][Hammurabi] and [NY Penal Code][NYPenal]    | [post][ham-NY-post] | |[Graded #1][A-1]     |         
 | Feb 11      | [Tennessee Valley Authority v. Hill (1978)][TVA]              | [summary][TVA-s]    | |[Pass/Fail #1][PF-1] |          
-| Feb 18      | [DeBoer v. Snyder (6th Circuit, 2014)][Boer]                  | [summary][Boer-s]   | |                     |           
-| Feb 25      | Writing workshop                                                                          |           
-| **PART 2**  | **Law and Morality**                                                                                          |           
+| Feb 18      | [DeBoer v. Snyder (6th Circuit, 2014)][Boer]                  | [summary][model-PF-1]   | |                     |
+| Feb 25      | Writing workshop                                              |                     | |                     |
+| **PART 2**  | **Law and Morality**                                                                                        |           
 | Mar 3       | Sophocle, [*Antigone*][Antigone-t]                            | [video][Antigone-v] | |[Graded #2][A-2]     |          
 | Mar 10      | Plato, [*Crito*][Crito-t]                                     | [video][Crito-v]    | |[Pass/Fail #2][PF-2] |         
 | Mar 17      | Hart, [*Positivism and the Separation of Laws and Morals*][Hart]|                   | |[Pass/Fail #3][PF-3] |
@@ -112,5 +112,6 @@ The course meets every **Tuesday** from **2pm** to **4:40pm** in **Carman 349**.
 [PF-2]: http://www.marcellodibello.com/PHI234/resources/PHI234-2020-PF2.pdf
 [PF-3]: http://www.marcellodibello.com/PHI234/resources/PHI234-2020-PF3.pdf
 [PF-4]: http://www.marcellodibello.com/PHI234/resources/PHI234-2020-PF4.pdf
+[model-PF-1]: http://www.marcellodibello.com/PHI234/resources/PHI234-same-sex-marriage-opinion.pdf
 
 
