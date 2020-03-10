@@ -52,9 +52,12 @@ subtitle = "PHI 234/POL 312"
 +++
 
 {{% alert warning %}}
-March 10 class canceled. Stay tuned for updates.  
+March 10 class is converted to a Zoom on-line class beginning at 2pm. Check your email for Zoom meeting ID. 
+
+March 10 in-person class is canceled.  
 
 Please fill out this [survey](https://forms.gle/7Bc6DvpCa2w8vkac9) about the possibility that the course would go on-line.
+
 {{% /alert %}}
 
 
