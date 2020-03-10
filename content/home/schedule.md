@@ -66,7 +66,7 @@ The course meets every **Tuesday** from **2pm** to **4:40pm** in **Carman 349**.
 | Feb 25      | Writing workshop                                              |                     | |                     |
 | **PART 2**  | **Law and Morality**                                                                                        |           
 | Mar 3       | Sophocle, [*Antigone*][Antigone-t]                            | [video][Antigone-v] | |[Graded #2][A-2]     |          
-| Mar 10      | Plato, [*Crito*][Crito-t]                                     | [video][Crito-v]    | |[Pass/Fail #2][PF-2] |         
+| Mar 10      | Plato, [*Crito*][Crito-t]   -- **class canceled**             | [video][Crito-v]    | |[Pass/Fail #2][PF-2] |         
 | Mar 17      | Hart, [*Positivism and the Separation of Laws and Morals*][Hart]|                   | |[Pass/Fail #3][PF-3] |
 | Mar 24      | Fuller, [*Positivism and Fidelity to the Law*][Fuller]        |                     | |                     |    
 | Mar 31      | Writing workshop                                                                                            |

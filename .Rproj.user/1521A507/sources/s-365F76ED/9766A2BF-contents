@@ -51,6 +51,11 @@ subtitle = "PHI 234/POL 312"
  css_class = ""
 +++
 
+{{% alert warning %}}
+March 10 class canceled. Stay tuned for updates.  
+{{% /alert %}}
+
+
 Welcome to **PHI 234 / POL 312** for Spring 2020! 
 
 This is an introduction to philosophical questions about law, legal reasoning and the justice system. 
