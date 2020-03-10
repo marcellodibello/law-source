@@ -53,6 +53,8 @@ subtitle = "PHI 234/POL 312"
 
 {{% alert warning %}}
 March 10 class canceled. Stay tuned for updates.  
+
+Please fill out this [survey](https://forms.gle/7Bc6DvpCa2w8vkac9) about the possibility that the course would go on-line:
 {{% /alert %}}
 
 
