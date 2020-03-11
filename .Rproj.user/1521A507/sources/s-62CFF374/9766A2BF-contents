@@ -52,9 +52,8 @@ subtitle = "PHI 234/POL 312"
 +++
 
 {{% alert warning %}}
-March 10 class is converted to a Zoom on-line class beginning at 2pm. Check your email for Zoom meeting ID. 
 
-March 10 in-person class is canceled.  
+Please submit your pass/fail assignment due March 10 [here](https://forms.gle/1vwY7bJyC5m3ZbkZ8) (NB: You need to have a gmail accout, if you have technical difficulties, let me know.)
 
 Please fill out this [survey](https://forms.gle/7Bc6DvpCa2w8vkac9) about the possibility that the course would go on-line.
 
