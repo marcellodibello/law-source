@@ -53,9 +53,10 @@ subtitle = "PHI 234/POL 312"
 
 {{% alert warning %}}
 
-Please submit your pass/fail assignment due March 10 [here](https://forms.gle/1vwY7bJyC5m3ZbkZ8) (NB: You need to have a gmail accout, if you have technical difficulties, let me know.)
+Instruction is suspended until March 19. 
 
-Please fill out this [survey](https://forms.gle/7Bc6DvpCa2w8vkac9) about the possibility that the course would go on-line.
+Please submit your pass/fail assignment due March 10 
+[here](https://forms.gle/1vwY7bJyC5m3ZbkZ8) (NB: If you have technical difficulties, let me know.)
 
 {{% /alert %}}
 
