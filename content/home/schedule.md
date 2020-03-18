@@ -52,7 +52,7 @@ subtitle = ""
 +++
 
 {{% alert note %}}
-The course meets every **Tuesday** from **2pm** to **4:40pm** in **Carman 349**.
+~~Course meets every **Tuesday** from **2pm** to **4:40pm** in **Carman 349**~~. Course is now on-line.
 {{% /alert %}}
 
 

@@ -53,11 +53,15 @@ subtitle = "PHI 234/POL 312"
 
 {{% alert warning %}}
 
-The third pass/fail assignment is now **due March 24**.
+COVID-19 updates:
 
-Instruction is suspended **until March 19**. 
+- Course is migrating to on-line. Stay tuned for updates.
 
-Please submit your second pass/fail assignment due March 10
+- The third pass/fail assignment is now **due March 24**.
+
+- Instruction suspended **until March 19**. 
+
+- Submit your second pass/fail assignment due March 10
 [here](https://forms.gle/1vwY7bJyC5m3ZbkZ8) 
 (If you have technical difficulties, let me know.)
 
