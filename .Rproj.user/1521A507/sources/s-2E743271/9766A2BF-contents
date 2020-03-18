@@ -53,10 +53,13 @@ subtitle = "PHI 234/POL 312"
 
 {{% alert warning %}}
 
-Instruction is suspended until March 19. 
+The third pass/fail assignment is now **due March 24**.
 
-Please submit your pass/fail assignment due March 10 
-[here](https://forms.gle/1vwY7bJyC5m3ZbkZ8) (NB: If you have technical difficulties, let me know.)
+Instruction is suspended **until March 19**. 
+
+Please submit your second pass/fail assignment due March 10
+[here](https://forms.gle/1vwY7bJyC5m3ZbkZ8) 
+(If you have technical difficulties, let me know.)
 
 {{% /alert %}}
 
