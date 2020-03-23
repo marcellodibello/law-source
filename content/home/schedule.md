@@ -66,9 +66,9 @@ subtitle = ""
 | Feb 25      | Writing workshop                                              |                     | |                     |
 | **PART 2**  | **Law and Morality**                                                                                        |           
 | Mar 3       | Sophocle, [*Antigone*][Antigone-t]                            | [video][Antigone-v] | |[Graded #2][A-2]     |          
-| Mar 10      | Plato, [*Crito*][Crito-t]   -- **Zoom meeting / in-person class canceled** | [video][Crito-v]    | |[Pass/Fail #2][PF-2]  **submit** [here](https://forms.gle/1vwY7bJyC5m3ZbkZ8)|         
+| Mar 10      | Plato, [*Crito*][Crito-t]   -- **Zoom meeting / in-person class canceled** | [video][Crito-v]    | |[Pass/Fail #2][PF-2]|         
 | Mar 17      | **Class cancelled**                                           |                     | |           |
-| Mar 24      | Hart, [*Positivism and the Separation of Laws and Morals*][Hart]|                   | |[Pass/Fail #3][PF-3] **note new deadline**
+| Mar 24      | Hart, [*Positivism and the Separation of Laws and Morals*][Hart]|                   | |[Pass/Fail #3][PF-3]  **submit** [here](https://forms.gle/1vwY7bJyC5m3ZbkZ8)
 |             | Fuller, [*Positivism and Fidelity to the Law*][Fuller]        |                     | |                     |    
 | Mar 31      | Writing workshop                                                                                            |
 | Apr 7       | **No class**                                                                                                 |
