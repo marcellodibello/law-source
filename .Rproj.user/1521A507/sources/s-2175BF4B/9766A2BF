@@ -5,14 +5,14 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "1157949428",
+    "hash" : "3244648701",
     "id" : "9766A2BF",
-    "lastKnownWriteTime" : 1584945068,
-    "last_content_update" : 1584945068719,
+    "lastKnownWriteTime" : 1585033228,
+    "last_content_update" : 1585033228363,
     "path" : "~/Downloads/law-source/content/home/demo.md",
     "project_path" : "content/home/demo.md",
     "properties" : {
-        "cursorPosition" : "67,0",
+        "cursorPosition" : "57,51",
         "scrollLine" : "52"
     },
     "read_only" : false,

@@ -55,6 +55,8 @@ subtitle = "PHI 234/POL 312"
 
 COVID-19 updates:
 
+- Zoom class March 24 starting at 2pm. Please join!
+
 - Submit your third pass/fail assignment due March 24
 [here](https://forms.gle/1vwY7bJyC5m3ZbkZ8) 
 (If you have technical difficulties, let me know.)
