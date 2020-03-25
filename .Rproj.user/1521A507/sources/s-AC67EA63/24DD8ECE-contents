@@ -68,7 +68,7 @@ subtitle = ""
 | Mar 3       | Sophocle, [*Antigone*][Antigone-t]                            | [video][Antigone-v] | |[Graded #2][A-2]     |          
 | Mar 10      | Plato, [*Crito*][Crito-t]   -- **Zoom meeting / in-person class canceled** | [video][Crito-v]    | |[Pass/Fail #2][PF-2]|         
 | Mar 17      | **Class cancelled**                                           |                     | |           |
-| Mar 24      | Hart, [*Positivism and the Separation of Laws and Morals*][Hart]|                   | |[Pass/Fail #3][PF-3]  **submit** [here](https://forms.gle/1vwY7bJyC5m3ZbkZ8)
+| Mar 24      | Hart, [*Positivism and the Separation of Laws and Morals*][Hart]| [slides][Hart-s]  | |[Pass/Fail #3][PF-3]  **submit** [here](https://forms.gle/1vwY7bJyC5m3ZbkZ8)
 |             | Fuller, [*Positivism and Fidelity to the Law*][Fuller]        |                     | |                     |    
 | Mar 31      | Writing workshop                                                                                            |
 | Apr 7       | **No class**                                                                                                 |
@@ -99,7 +99,7 @@ subtitle = ""
 [H-NY-s]: http://
 [Boer-s]: https://www.sixthcircuitappellateblog.com/news-and-analysis/breaking-news-sixth-circuit-upholds-same-sex-marriage-bans-in-ohio-michigan-kentucky-and-tennessee/
 [TVA-s]: http://www.marcellodibello.com/PHI234/resources/TVAvHill-summary.pdf
-[Hart-s]: http://
+[Hart-s]: http://www.marcellodibello.com/PHI234/resources/PHI234-hart.pdf
 [Fuller-s]:http://
 
 [ham-NY-post]: /post/hammurabi-v-ny/
