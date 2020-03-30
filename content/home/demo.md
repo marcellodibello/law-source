@@ -55,6 +55,11 @@ subtitle = "PHI 234/POL 312"
 
 COVID-19 updates:
 
+- The CUNY chancellor [said](https://www.cuny.edu/coronavirus/recalibration-period/) that 
+we are officially on a break from March 27 to 
+April 1, called "recalibration period". You are not required to attend classes or do any work during this period. 
+I am still holding a Zoom class Tuesday March 31 starting at 2pm, but your attendance is **completely optional**! 
+
 - Zoom class March 24 starting at 2pm. Please join!
 
 - Submit your third pass/fail assignment due March 24
