@@ -61,6 +61,8 @@ April 1, called "recalibration period". You are not required to attend classes o
 I am still holding a Zoom class Tuesday March 31 starting at 2pm, but your attendance is **completely optional**! 
 If you join please be prepared to share ideas and thoughts on [graded assignment #3][A-3]. 
 
+[A-3]: http://www.marcellodibello.com/PHI234/resources/PHI234-2020-A3.pdf
+
 - Zoom class March 24 starting at 2pm. Please join!
 
 - Submit your third pass/fail assignment due March 24
