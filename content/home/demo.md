@@ -57,7 +57,7 @@ COVID-19 updates:
 
 - The CUNY chancellor [said](https://www.cuny.edu/coronavirus/recalibration-period/) that 
 we are officially on a break from March 27 to 
-April 1, called "recalibration period". You are not required to attend classes or do any work during this period. 
+April 1. You are not required to attend classes or do any work during this period. 
 I am still holding a Zoom class Tuesday March 31 starting at 2pm, but your attendance is **completely optional**! 
 If you join please be prepared to share ideas and thoughts on [graded assignment #3][A-3]. 
 
