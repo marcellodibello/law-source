@@ -55,7 +55,7 @@ subtitle = "PHI 234/POL 312"
 
 COVID-19 updates:
 
-- No Zoom class Tuesday March 7 since classes follow a Wednesday schedule. 
+- No Zoom class Tuesday April 7 since classes follow a Wednesday schedule. 
 
 - The CUNY chancellor [said](https://www.cuny.edu/coronavirus/recalibration-period/) that 
 we are officially on a break from March 27 to 
