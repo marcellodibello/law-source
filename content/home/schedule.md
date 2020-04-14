@@ -73,7 +73,8 @@ subtitle = ""
 | Apr 7       | **No class: classes follow a Wednesday schedule**                                                               |
 | Apr 14      | Writing workshop                                                                                    |
 | **PART 3**  | **Algorithms in Criminal Justice**                                                                          |
-| Apr 28      | Mayson, [Bias In, Bias Out][Mayson]                           | [post][algo-post]   | | [Graded #3][A-3]     |
+| Apr 21      | ProPublica, [Machine Bias][ProPublica]                        |                     | | [Graded #3][A-3]    |
+| Apr 28      | Mayson, [Bias In, Bias Out][Mayson]                           | [post][algo-post]   | |                     |
 | May 5       | Aziz, [Racial Equity in Algorithmic Criminal Justice][Aziz]   |                     | | [Pass/Fail #4][PF-4]|
 | May 12      | Writing workshop                                                                                            | 
 | May 19      | **No class: exam period**                                     |                     | | [Graded #4][A-4]    |
@@ -90,6 +91,7 @@ subtitle = ""
 [Fuller]: http://www.marcellodibello.com/PHI234/resources/fuller-hart-1958.pdf
 [Mayson]: https://www.yalelawjournal.org/article/bias-in-bias-out
 [Aziz]: https://scholarship.law.duke.edu/dlj/vol68/iss6/1/
+[ProPublica]: https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing
 
 [Antigone-v]: http://
 [Crito-v]: https://www.youtube.com/watch?v=3ruJDEXyO5A
