@@ -70,9 +70,8 @@ subtitle = ""
 | Mar 17      | **Class cancelled**                                           |                     | |           |
 | Mar 24      | Hart, [*Positivism and the Separation of Laws and Morals*][Hart]| [slides][Hart-s]  | |[Pass/Fail #3][PF-3]  **submit** [here](https://forms.gle/1vwY7bJyC5m3ZbkZ8)
 | Mar 31      | Fuller, [*Positivism and Fidelity to the Law*][Fuller]        |  [slides][Fuller-s]  | |                     |    
-|      | Writing workshop                                                                                            |
 | Apr 7       | **No class: classes follow a Wednesday schedule**                                                               |
-| Apr 14      | **No class: Spring break**                                                                                   |
+| Apr 14      | Writing workshop                                                                                    |
 | **PART 3**  | **Algorithms in Criminal Justice**                                                                          |
 | Apr 28      | Mayson, [Bias In, Bias Out][Mayson]                           | [post][algo-post]   | | [Graded #3][A-3]     |
 | May 5       | Aziz, [Racial Equity in Algorithmic Criminal Justice][Aziz]   |                     | | [Pass/Fail #4][PF-4]|

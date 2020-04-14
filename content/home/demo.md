@@ -55,6 +55,8 @@ subtitle = "PHI 234/POL 312"
 
 COVID-19 updates:
 
+- Zoom class April 14 starting at 2pm. Please join!
+
 - No Zoom class Tuesday April 7 since classes follow a Wednesday schedule. 
 
 - The CUNY chancellor [said](https://www.cuny.edu/coronavirus/recalibration-period/) that 
