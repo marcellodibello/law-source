@@ -68,12 +68,12 @@ subtitle = ""
 | Mar 3       | Sophocle, [*Antigone*][Antigone-t]                            | [video][Antigone-v] | |[Graded #2][A-2]     |          
 | Mar 10      | Plato, [*Crito*][Crito-t]   -- **Zoom meeting / in-person class canceled** | [video][Crito-v]    | |[Pass/Fail #2][PF-2]|         
 | Mar 17      | **Class cancelled**                                           |                     | |           |
-| Mar 24      | Hart, [*Positivism and the Separation of Laws and Morals*][Hart]| [slides][Hart-s]  | |[Pass/Fail #3][PF-3]  **submit** [here](https://forms.gle/1vwY7bJyC5m3ZbkZ8)
-| Mar 31      | Fuller, [*Positivism and Fidelity to the Law*][Fuller]        |  [slides][Fuller-s]  | |                     |    
+| Mar 24      | Hart, [*Positivism and the Separation of Laws and Morals*][Hart]| [slides][Hart-s]  | |[Pass/Fail #3][PF-3]  |
+| Mar 31      | Fuller, [*Positivism and Fidelity to the Law*][Fuller]        |  [slides][Fuller-s] | |                     |    
 | Apr 7       | **No class: classes follow a Wednesday schedule**                                                               |
 | Apr 14      | Writing workshop                                                                                    |
 | **PART 3**  | **Algorithms in Criminal Justice**                                                                          |
-| Apr 21      | ProPublica, [Machine Bias][ProPublica]                        |                     | | [Graded #3][A-3]    |
+| Apr 21      | ProPublica, [Machine Bias][ProPublica]                        |                     | | [Graded #3][A-3]  **submit** [here](https://forms.gle/1vwY7bJyC5m3ZbkZ8)  |
 | Apr 28      | Mayson, [Bias In, Bias Out][Mayson]                           | [post][algo-post]   | |                     |
 | May 5       | Aziz, [Racial Equity in Algorithmic Criminal Justice][Aziz]   |                     | | [Pass/Fail #4][PF-4]|
 | May 12      | Writing workshop                                                                                            | 

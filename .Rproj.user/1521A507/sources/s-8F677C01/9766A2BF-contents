@@ -55,6 +55,8 @@ subtitle = "PHI 234/POL 312"
 
 COVID-19 updates:
 
+- Zoom class April 21 starting at 2pm. Graded assignment #3 due April 21, please **submit** [here](https://forms.gle/1vwY7bJyC5m3ZbkZ8)
+
 - Zoom class April 14 starting at 2pm. Please join!
 
 - No Zoom class Tuesday April 7 since classes follow a Wednesday schedule. 
