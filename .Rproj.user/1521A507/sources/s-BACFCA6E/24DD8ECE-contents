@@ -72,8 +72,8 @@ subtitle = ""
 | Mar 31      | Fuller, [*Positivism and Fidelity to the Law*][Fuller]        |  [slides][Fuller-s] | |                     |    
 | Apr 7       | **No class: classes follow a Wednesday schedule**                                                               |
 | Apr 14      | Writing workshop                                                                                    |
-| **PART 3**  | **Algorithms in Criminal Justice**                                                                          |
-| Apr 21      | ProPublica, [Machine Bias][ProPublica]                        |                     | | [Graded #3][A-3]  **submit** [here](https://forms.gle/1vwY7bJyC5m3ZbkZ8)  |
+| **PART 3**  | **Algorithms in Criminal Justice**                                                                        |
+| Apr 21      | ProPublica, [Machine Bias][ProPublica]                        | [handout][algo-handout]    | | [Graded #3][A-3]  **submit** [here](https://forms.gle/1vwY7bJyC5m3ZbkZ8)  |
 | Apr 28      | Mayson, [Bias In, Bias Out][Mayson]                           | [post][algo-post]   | |                     |
 | May 5       | Aziz, [Racial Equity in Algorithmic Criminal Justice][Aziz]   |                     | | [Pass/Fail #4][PF-4]|
 | May 12      | Writing workshop                                                                                            | 
@@ -116,4 +116,4 @@ subtitle = ""
 [PF-4]: http://www.marcellodibello.com/PHI234/resources/PHI234-2020-PF4.pdf
 [model-PF-1]: http://www.marcellodibello.com/PHI234/resources/PHI234-same-sex-marriage-opinion.pdf
 
-
+[algo-handout]: http://www.marcellodibello.com/PHI234/resources/algo-fair.pdf
