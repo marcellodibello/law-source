@@ -74,7 +74,7 @@ subtitle = ""
 | Apr 14      | Writing workshop                                                                                    |
 | **PART 3**  | **Algorithms in Criminal Justice**                                                                        |
 | Apr 21      | ProPublica, [Machine Bias][ProPublica]                        | [handout][algo-handout]    | | [Graded #3][A-3]  **submit** [here](https://forms.gle/1vwY7bJyC5m3ZbkZ8)  |
-| Apr 28      | Mayson, [Bias In, Bias Out][Mayson]                           | [post][algo-post]   | |                     |
+| Apr 28      | Mayson, [Bias In, Bias Out][Mayson]                           | [post][algo-post]   | | Write *three short paragraphs* explaining (1) false positive (FP) and false negative (FN) rates; (2) wrong positive and wrong negative predictions; and (3) how (1) and (2) differ from one another. Check this [handout][algo-handout].                    |
 | May 5       | Aziz, [Racial Equity in Algorithmic Criminal Justice][Aziz]   |                     | | [Pass/Fail #4][PF-4]|
 | May 12      | Writing workshop                                                                                            | 
 | May 19      | **No class: exam period**                                     |                     | | [Graded #4][A-4]    |
@@ -116,4 +116,4 @@ subtitle = ""
 [PF-4]: http://www.marcellodibello.com/PHI234/resources/PHI234-2020-PF4.pdf
 [model-PF-1]: http://www.marcellodibello.com/PHI234/resources/PHI234-same-sex-marriage-opinion.pdf
 
-[algo-handout]: http://www.marcellodibello.com/PHI234/resources/algo-handout.pdf
+[algo-handout]: http://www.marcellodibello.com/PHI234/resources/algo-fair.pdf

@@ -2,18 +2,18 @@
     "collab_server" : "",
     "contents" : "",
     "created" : 1579826289535.000,
-    "dirty" : true,
+    "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "0",
+    "hash" : "331135712",
     "id" : "24DD8ECE",
-    "lastKnownWriteTime" : 1587504769,
-    "last_content_update" : 1587504835108,
+    "lastKnownWriteTime" : 1587505260,
+    "last_content_update" : 1587505260341,
     "path" : "~/Downloads/law-source/content/home/schedule.md",
     "project_path" : "content/home/schedule.md",
     "properties" : {
-        "cursorPosition" : "118,73",
-        "scrollLine" : "98"
+        "cursorPosition" : "76,286",
+        "scrollLine" : "68"
     },
     "read_only" : false,
     "read_only_alternatives" : [
