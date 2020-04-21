@@ -55,7 +55,9 @@ subtitle = "PHI 234/POL 312"
 
 COVID-19 updates:
 
-- Zoom Class April 28 starting at 2pm In preparation for the class, please write *three short paragraphs* explaining (1) false positive (FP) and false negative (FN) rates; (2) wrong positive and wrong negative predictions; and (3) how (1) and (2) differ from one another. Check this [handout][algo-handout].              
+- Zoom Class April 28 starting at 2pm. In preparation for the class, please write *three short paragraphs* explaining (1) false positive (FP) and false negative (FN) rates; (2) wrong positive and wrong negative predictions; and (3) how (1) and (2) differ from one another. Check this [handout][algo-handout].   
+
+[algo-handout]: http://www.marcellodibello.com/PHI234/resources/algo-fair.pdf
 
 - Zoom class April 21 starting at 2pm. Graded assignment #3 due April 21, please **submit** [here](https://forms.gle/1vwY7bJyC5m3ZbkZ8)
 
