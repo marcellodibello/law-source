@@ -75,8 +75,8 @@ subtitle = ""
 | **PART 3**  | **Algorithms in Criminal Justice**                                                                        |
 | Apr 21      | ProPublica, [Machine Bias][ProPublica]                        | [handout][algo-handout]    | | [Graded #3][A-3]  **submit** [here](https://forms.gle/1vwY7bJyC5m3ZbkZ8)  |
 | Apr 28      | Mayson, [Bias In, Bias Out][Mayson]                           | [post][algo-post]   | |       |
-| May 5       | Aziz, [Racial Equity in Algorithmic Criminal Justice][Aziz]   |                     | | [Pass/Fail #4][PF-4]|
-| May 12      | Writing workshop                                                                                            | 
+| May 5       | Aziz, [Racial Equity in Algorithmic Criminal Justice][Aziz]   |                     | |                     |
+| May 12      | Writing workshop                                              |                     | | [Pass/Fail #4][PF-4]| 
 | May 19      | **No class: exam period**                                     |                     | | [Graded #4][A-4]    |
 
 
