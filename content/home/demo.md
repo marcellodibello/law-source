@@ -55,7 +55,11 @@ subtitle = "PHI 234/POL 312"
 
 Updates:
 
-- Zoom class May 5 starting at 2pm. Note that Pass/Fail Assignment #4 (due May 12, optional) and Graded Assignment #4 (due May 19) are now posted.
+- Zoom class May 5 starting at 2pm. Note that [Pass/Fail Assignment #4][PF-4] (due May 12, optional) and [Graded Assignment #4][A-4] (due May 19) are now posted.
+
+[A-4]: http://www.marcellodibello.com/PHI234/resources/PHI234-2020-A4.pdf
+[PF-4]: http://www.marcellodibello.com/PHI234/resources/PHI234-2020-PF4.pdf
+
 
 - Zoom class April 28 starting at 2pm. In preparation for the class, please write *three short paragraphs* explaining (1) false positive (FP) and false negative (FN) rates; (2) wrong positive and wrong negative predictions; and (3) how (1) and (2) differ from one another. Check out this [handout][algo-handout].   
 
