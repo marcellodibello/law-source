@@ -55,7 +55,7 @@ subtitle = "PHI 234/POL 312"
 
 Updates:
 
-- Last Zoom class May 12 starting at 2pm. Be ready to share your ideas about [Graded Assignment #4][A-4] (due May 19). I know the end of the semester is hectic, especially during this difficult times, so
+- Last Zoom class May 12 starting at 2pm. Be ready to share your ideas about [Graded Assignment #4][A-4] (due May 19). I know the end of the semester is hectic, especially during these difficult times, so
 this final class meeting is not mandatory. But you are very welcome to join! 
 
 - Zoom class May 5 starting at 2pm. Note that [Pass/Fail Assignment #4][PF-4] (due May 12, optional) and [Graded Assignment #4][A-4] (due May 19) are now posted.
